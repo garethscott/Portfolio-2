@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { BrowserRouter, Route } from 'react-router-dom';
 import LandingPage from './components/LandingPage/LandingPage';
+import ProjectsPage from './components/ProjectsPage/ProjectsPage';
 import './App.css';
 
 function App() {
@@ -11,7 +12,9 @@ function App() {
         <Route
           exact
           path="/"
-          render={LandingPage} />
+          render={LandingPage}
+        />
+        <Route path="/projects" component={ProjectsPage} />
       </StyledApp>
     </BrowserRouter>
   );
