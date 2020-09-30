@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import SocialNav from './SocialNav'
 import GreetImg from './images/landing-image-1.jpg';
-import LogoBlack from './images/logo-border-black.png';
 import LogoMessage from './images/logo-message.png';
 import LogoGithub from './images/logo-github.png';
 import LogoLinkedIn from './images/logo-linkedin.png';
@@ -11,7 +10,6 @@ import LogoInsta from './images/logo-insta.png';
 const GreetingBox = () => {
     return (
         <StyledGreetImg img={GreetImg}>
-            <StyledLogoBlack src={LogoBlack} alt="Gareth's Black Logo" />
             <StyledGreetCopyBox>
                 <StyledGreeting>Hello, I'm <br />Gareth Scott <br />and I'm a<br /> junior dev</StyledGreeting>
                 <StyledFullStop />
@@ -23,7 +21,7 @@ const GreetingBox = () => {
                 git={LogoGithub}
                 linkedin={LogoLinkedIn}
                 insta={LogoInsta} />
-        </StyledGreetImg>
+        </StyledGreetImg >
     )
 }
 
@@ -37,12 +35,6 @@ const StyledGreetImg = styled.div`
     background-color: rgb(242, 167, 48);
     display: flex;
     align-items: center;
-`;
-const StyledLogoBlack = styled.img`
-    width: 30px;
-    position: fixed;
-    right: 15px;
-    top: 15px;
 `;
 const StyledGreetCopyBox = styled.div`
     height: 270px;
