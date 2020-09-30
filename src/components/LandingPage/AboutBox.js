@@ -67,6 +67,7 @@ const StyledProjectsLink = styled(Link)`
     text-decoration: none;
     font-family: helvetica;
     font-weight: 800;
+    // color: rgb(255, 255, 255);
 `;
 const StyledMove = styled.div`
    width: 200px;
