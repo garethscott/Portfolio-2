@@ -1,7 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
+import SocialNav from './SocialNav'
 import GreetImg from './images/landing-image-1.jpg';
 import LogoBlack from './images/logo-border-black.png';
+import LogoMessage from './images/logo-message.png';
+import LogoGithub from './images/logo-github.png';
+import LogoLinkedIn from './images/logo-linkedin.png';
+import LogoInsta from './images/logo-insta.png';
 
 const GreetingBox = () => {
     return (
@@ -10,9 +15,14 @@ const GreetingBox = () => {
             <StyledGreetCopyBox>
                 <StyledGreeting>Hello, I'm <br />Gareth Scott <br />and I'm a<br /> junior dev</StyledGreeting>
                 <StyledFullStop />
-                <StyledLine />
+                <StyledLineShort />
                 <StyledPleaseScroll>Please Scroll</StyledPleaseScroll>
             </StyledGreetCopyBox>
+            <SocialNav
+                message={LogoMessage}
+                git={LogoGithub}
+                linkedin={LogoLinkedIn}
+                insta={LogoInsta} />
         </StyledGreetImg>
     )
 }
@@ -59,7 +69,7 @@ const StyledFullStop = styled.div`
     left: 211px;
     bottom: 92px;
 `;
-const StyledLine = styled.div`
+const StyledLineShort = styled.div`
     width: 20px;
     height: 10px;
     border-top: 2px solid rgb(0, 50, 57);
