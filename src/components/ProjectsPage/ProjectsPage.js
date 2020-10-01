@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import ProjectsHeading from './ProjectsHeading';
 import ProjectsCopy from './ProjectsCopy';
 import ProjectBox from './ProjectBox';
+import ContactBox from './ContactBox';
 import KeyCodeImg from './Images/Project-Square-Keycode.jpg';
 import DrumKitImg from './Images/Project-Square-DrumKit.jpg';
 import DiceGameImg from './Images/Project-Square-DiceGame.jpg';
@@ -70,6 +71,7 @@ const ProjectsPage = () => {
                     subHeading="MERN Stack"
                 />
             </StyledProjectImageBox>
+            <ContactBox />
         </>
     )
 }
