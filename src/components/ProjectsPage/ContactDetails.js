@@ -2,14 +2,14 @@ import React from 'react';
 import styled from 'styled-components';
 
 const ContactDetails = () => {
-    return (
-        <StyledContactDeetBox>
-            <StyledPhone>+44 0 7947 710 770</StyledPhone>
-            <StyledEmail>g.scott1986@gmail.com</StyledEmail>
-            <StyledLine />
-        </StyledContactDeetBox>
+     return (
+          <StyledContactDeetBox>
+               <StyledPhone>+44 0 7947 710 770</StyledPhone>
+               <StyledEmail>g.scott1986@gmail.com</StyledEmail>
+               <StyledLine />
+          </StyledContactDeetBox>
 
-    )
+     )
 }
 
 export default ContactDetails;
@@ -17,7 +17,7 @@ export default ContactDetails;
 const StyledContactDeetBox = styled.div`
      width: 255px;
      height: 90px;
-     background: blue;
+     // background: blue;
      position: relative;
 `;
 const StyledPhone = styled.h3`

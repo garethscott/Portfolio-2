@@ -17,7 +17,7 @@ const StyledContactHeadingBox = styled.div`
     width: 265px;
     position: relative;
     height: 130px;
-    background: red;
+    // background: red;
     margin-top: -27px;
 `;
 const StyledContactHeading = styled.h1`
@@ -32,7 +32,7 @@ const StyledFullStop = styled.div`
     height: 9px;
     width: 9px;
     border-radius: 50%;
-    background-color: rgb(5, 205, 229);
+    background-color: rgb(255, 255, 255);
     position: absolute;
     left: 175px;
     bottom: 17px;

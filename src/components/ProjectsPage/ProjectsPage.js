@@ -4,6 +4,7 @@ import ProjectsHeading from './ProjectsHeading';
 import ProjectsCopy from './ProjectsCopy';
 import ProjectBox from './ProjectBox';
 import ContactBox from './ContactBox';
+import MainLogoBlack from './Images/logo-border-black.png';
 import KeyCodeImg from './Images/Project-Square-Keycode.jpg';
 import DrumKitImg from './Images/Project-Square-DrumKit.jpg';
 import DiceGameImg from './Images/Project-Square-DiceGame.jpg';
@@ -18,6 +19,7 @@ const ProjectsPage = () => {
     return (
         <>
             <StyledProjectsIntroBox>
+                <StyledBlackLogo src={MainLogoBlack} alt="Gareth's logo" />
                 <StyledProjectContent>
                     <ProjectsHeading />
                     <ProjectsCopy />
@@ -86,6 +88,13 @@ const StyledProjectsIntroBox = styled.div`
     background-size: cover;
     display: flex;
     align-items: center;
+    position: relative;
+`;
+const StyledBlackLogo = styled.img`
+    width: 30px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
 `;
 const StyledProjectContent = styled.div`
     width: 83%;
