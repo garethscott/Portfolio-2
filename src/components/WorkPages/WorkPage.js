@@ -18,8 +18,8 @@ const WorkPage = (props) => {
                     <StyledCopyBox>
                         <StyledHeading>{props.heading}</StyledHeading>
                         <StyledCopy>{props.copy}</StyledCopy>
-                        <StyledLineTop />
                         <StyledLineBot />
+                        <StyledLineTop />
                         <StyledSeeLink href={props.workUrl}>See online</StyledSeeLink>
                     </StyledCopyBox>
                 </StyledCopyFrame>
@@ -120,10 +120,9 @@ const StyledLineTop = styled.div`
 const StyledLineBot = styled.div`
     width: 15px;
     height: 10px;
-    border-top: 2px solid rgb(0, 50, 57);
-    position: absolute;
-    right: 20px;
-    top: 175px;
+    border-bottom: 2px solid rgb(0, 50, 57);
+    margin-top: 1px;
+    margin-right: 20px;
 `;
 const StyledSeeLink = styled.a`
     font-family: helvetica;
@@ -136,7 +135,7 @@ const StyledSeeLink = styled.a`
     width: 96px;
     text-align: right;
     margin-right: 20px;
-    margin-top: 18px;
+    margin-top: 12px;
 `;
 const StyledArrowBox = styled.div`
     width: 100%;

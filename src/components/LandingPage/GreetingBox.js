@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import SocialNav from './SocialNav'
-import GreetImg from './images/landing-image-1.jpg';
 import LogoMessage from './images/logo-message.png';
 import LogoGithub from './images/logo-github.png';
 import LogoLinkedIn from './images/logo-linkedin.png';
@@ -9,7 +8,7 @@ import LogoInsta from './images/logo-insta.png';
 
 const GreetingBox = () => {
     return (
-        <StyledGreetImg img={GreetImg}>
+        <StyledGreetImg>
             <StyledGreetCopyBox>
                 <StyledGreeting>Hello, I'm <br />Gareth Scott <br />and I'm a<br /> junior dev</StyledGreeting>
                 <StyledFullStop />
@@ -30,7 +29,6 @@ export default GreetingBox;
 const StyledGreetImg = styled.div`
     height: 100vh;
     width: 100%;
-    // background-image: url(${props => props.img});
     background-size: cover;
     background-color: rgb(242, 167, 48);
     display: flex;

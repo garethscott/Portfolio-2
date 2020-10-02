@@ -71,16 +71,16 @@ const ProjectsPage = () => {
                 <ProjectBox
                     img={DiceGameImg}
                     alt=""
-                    heading="Drum kit"
+                    heading="Dice Game"
                     subHeading="Javascript"
-                    url="#"
+                    url="/dicegame"
                 />
                 <ProjectBox
                     img={DrumKitImg}
                     alt=""
                     heading="Drum kit"
                     subHeading="Javascript"
-                    url="#"
+                    url="/drumkit"
                 />
                 <ProjectBox
                     img={KeyCodeImg}
