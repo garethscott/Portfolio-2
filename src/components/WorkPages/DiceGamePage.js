@@ -14,8 +14,8 @@ const DiceGamePage = () => {
                 over twenty-one, if they roll a score of one at anytime they loose 
                 immediately! This app was built using HTML, CSS and Vanilla Javascript."
                 workUrl="https://garethscott.github.io/Dice-Multiplayer-Project-/"
-                previousUrl="#"
-                nextUrl="#"
+                previousUrl="/calculator"
+                nextUrl="/drumkit"
             />
         </>
     )

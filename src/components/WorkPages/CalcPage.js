@@ -12,8 +12,8 @@ const CalcPage = () => {
                 heading="Calculator"
                 copy="The calculator project required me to build a fully functioning calculator using React."
                 workUrl="https://garethscott.github.io/Calculator-Two/"
-                previousUrl="#"
-                nextUrl="#"
+                previousUrl="/addressbook"
+                nextUrl="/dicegame"
             />
         </>
     )

@@ -15,8 +15,8 @@ const KeyCodePage = () => {
             and codes of that particular key. This app was built using HTML, CSS 
             and Vanilla Javascript."
                 workUrl="https://garethscott.github.io/Key-Code-Project/"
-                previousUrl="#"
-                nextUrl="#"
+                previousUrl="/drumkit"
+                nextUrl="/travelapp"
             />
         </>
     )

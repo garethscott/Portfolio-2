@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import ProjectsHeading from './ProjectsHeading';
 import ProjectsCopy from './ProjectsCopy';
@@ -19,7 +20,7 @@ const ProjectsPage = () => {
     return (
         <>
             <StyledProjectsIntroBox>
-                <StyledBlackLogo src={MainLogoBlack} alt="Gareth's logo" />
+                <Link to="/home"><StyledBlackLogo src={MainLogoBlack} alt="Gareth's logo" /></Link>
                 <StyledProjectContent>
                     <ProjectsHeading />
                     <ProjectsCopy />

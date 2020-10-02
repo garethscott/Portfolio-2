@@ -15,8 +15,8 @@ const PokePage = () => {
                 app. The Pokemon app allowed the user to search and research their favourite 
                 Pokemon."
                 workUrl="#"
-                previousUrl="#"
-                nextUrl="#"
+                previousUrl="/weatherapp"
+                nextUrl="/todoapp"
             />
         </>
     )

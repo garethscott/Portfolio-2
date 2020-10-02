@@ -15,8 +15,8 @@ const TravelAppPage = () => {
                 A group project, we adopted a contributor workflow. The app was built 
                 using MongoDB, React, Express & Node.js."
                 workUrl="#"
-                previousUrl="#"
-                nextUrl="#"
+                previousUrl="/keycode"
+                nextUrl="/weatherapp"
             />
         </>
     )

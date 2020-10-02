@@ -14,8 +14,8 @@ const TodoPage = () => {
                 and store to-dos. The front-end is built entirely in React, and the back-end 
                 is built in Node.js and Express, connected to a MongoDB database."
                 workUrl="#"
-                previousUrl="#"
-                nextUrl="#"
+                previousUrl="pokemonapp"
+                nextUrl="addressbook"
             />
         </>
     )

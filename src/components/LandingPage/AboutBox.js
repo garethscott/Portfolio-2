@@ -59,15 +59,17 @@ const StyledLineBelow = styled.div`
     bottom: 80px;
 `;
 const StyledProjectsLink = styled(Link)`
-    color: rgb(0, 50, 57);
-    // margin-left: 20px;
-    font-size: 20px;
-    height: 40px;
-    width: 151px;
-    text-decoration: none;
     font-family: helvetica;
-    font-weight: 800;
-    // color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    color: rgb(0, 50, 57);
+    // border-bottom: 3px solid rgb(0, 50, 57);
+    text-decoration: none;
+    width: 96px;
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 12px;
 `;
 const StyledMove = styled.div`
    width: 200px;

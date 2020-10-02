@@ -15,8 +15,8 @@ const WeatherAppPage = () => {
                 and rendered back-end with handlebars. The 
                 weather forecast data is retrieved from the OpenWeatherMap API."
                 workUrl="#"
-                previousUrl="#"
-                nextUrl="#"
+                previousUrl="/travelapp"
+                nextUrl="/pokemonapp"
             />
         </>
     )

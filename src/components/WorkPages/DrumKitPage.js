@@ -13,8 +13,8 @@ const DrumKitPage = () => {
                 copy="The drum kit app, when any of the listed keys are pressed plays sound effects 
                 of the associated drum or cymbal. This was built using HTML, CSS and vanilla Javascript."
                 workUrl="https://garethscott.github.io/Drumkit-Project/"
-                previousUrl="#"
-                nextUrl="#"
+                previousUrl="/dicegame"
+                nextUrl="/keycode"
             />
         </>
     )

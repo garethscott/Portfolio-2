@@ -13,8 +13,8 @@ const AddBookPage = () => {
                 copy="An app built using React, were the user can store their 
                 friends and acquaintances telephone numbers."
                 workUrl="#"
-                previousUrl="#"
-                nextUrl="#"
+                previousUrl="/todoapp"
+                nextUrl="/calculator"
             />
         </>
     )
