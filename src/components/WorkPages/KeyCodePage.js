@@ -6,6 +6,8 @@ const KeyCodePage = () => {
     return (
         <>
             <WorkPage
+                backgroundColor="rgb(5, 205, 229)"
+                backImg="rgb(149, 242, 253)"
                 workImg={WorkPicKeyCode}
                 heading="Key Code"
                 copy="The Key Code project required me to build an app the would 

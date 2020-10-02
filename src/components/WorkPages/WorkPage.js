@@ -7,11 +7,11 @@ import XButton from './images/x-button.png';
 
 const WorkPage = (props) => {
     return (
-        <StyledBackground>
+        <StyledBackground backColor={props.backgroundColor}>
             <Link to="/home"><StyledBlackLogo src={MainBlackLogo} alt="Gareth's Logo" /></Link>
             <Link to="/projects"><StyledX src={XButton} alt="Closing Button, back to projects" /></Link>
             <StyledContentBox>
-                <StyledImgFrame>
+                <StyledImgFrame imgBackColor={props.backImg}>
                     <StyledWorkImg src={props.workImg} />
                 </StyledImgFrame>
                 <StyledCopyFrame>
@@ -37,7 +37,7 @@ export default WorkPage;
 const StyledBackground = styled.div`
     width: 100%;
     height: 100vh;
-    background-color: rgb(5, 205, 229);
+    background-color: ${props => props.backColor};
     position: relative;
     display: flex;
     flex-direction: column;
@@ -65,8 +65,8 @@ const StyledContentBox = styled.div`
 const StyledImgFrame = styled.div`
     width: 100%;
     height: 200px;
-    // background-color: rgb(255, 255, 255);
-    background-color: rgb(149, 242, 253);
+    background-color: ${props => props.imgBackColor};
+    // background-color: rgb(149, 242, 253);
     display: flex;
     justify-content: center;
     align-items: center;
