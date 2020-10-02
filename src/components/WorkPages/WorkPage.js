@@ -1,34 +1,32 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import MainBlackLogo from './images/logo-border-black.png'
-import WorkPicKeyCode from './images/work-picture-keycode.png';
+import XButton from './images/x-button.png';
 
 
-const WorkPage = () => {
+const WorkPage = (props) => {
     return (
         <StyledBackground>
-            <StyledBlackLogo src={MainBlackLogo} alt="Gareth's Logo" />
-            {/* <StyledX>X</StyledX> */}
+            <Link to="/home"><StyledBlackLogo src={MainBlackLogo} alt="Gareth's Logo" /></Link>
+            <Link to="/projects"><StyledX src={XButton} alt="Closing Button, back to projects" /></Link>
             <StyledContentBox>
                 <StyledImgFrame>
-                    <StyledWorkImg src={WorkPicKeyCode} />
+                    <StyledWorkImg src={props.workImg} />
                 </StyledImgFrame>
                 <StyledCopyFrame>
                     <StyledCopyBox>
-                        <StyledHeading>Key Code</StyledHeading>
-                        <StyledCopy>The key code project required me to build an app the would
-                        listen for a pressed key on the keyboard, and present the relevant
-                        keys and codes of that particular key. This app was built using HTML,
-                            CSS and vanilla Javascript.</StyledCopy>
+                        <StyledHeading>{props.heading}</StyledHeading>
+                        <StyledCopy>{props.copy}</StyledCopy>
                         <StyledLineTop />
                         <StyledLineBot />
-                        <StyledSeeLink>See online</StyledSeeLink>
+                        <StyledSeeLink href={props.workUrl}>See online</StyledSeeLink>
                     </StyledCopyBox>
                 </StyledCopyFrame>
             </StyledContentBox>
             <StyledArrowBox>
-                <StyledArrowPre>&lt; previous</StyledArrowPre>
-                <StyledArrowNext>next &gt;</StyledArrowNext>
+                <StyledPrevious to={props.previousUrl}>&lt; previous</StyledPrevious>
+                <StyledNext to={props.nextUrl}>next &gt;</StyledNext>
             </StyledArrowBox>
         </StyledBackground>
     )
@@ -52,11 +50,11 @@ const StyledBlackLogo = styled.img`
     top: 20px;
     right: 20px;
 `;
-const StyledX = styled.h1`
-    font-family: helvetica;
-    font-size: 20px;
-    color: rgb(0, 50, 57);
+const StyledX = styled.img`
     position: absolute;
+    width: 20px;
+    left: 17px;
+    top: 51px;
 `;
 const StyledContentBox = styled.div`
     width: 100%;
@@ -82,6 +80,7 @@ const StyledCopyFrame = styled.div`
     // background: red;
     display: flex;
     justify-content: flex-end;
+    margin-top: 10px;
 `;
 const StyledCopyBox = styled.div`
     width: 79%;
@@ -126,15 +125,14 @@ const StyledLineBot = styled.div`
     right: 20px;
     top: 175px;
 `;
-const StyledSeeLink = styled.h2`
+const StyledSeeLink = styled.a`
     font-family: helvetica;
     font-size: 20px;
     font-weight: 400;
     font-style: italic;
     color: rgb(0, 50, 57);
-    // color: rgb(255, 255, 255);
     border-bottom: 1px solid rgb(0, 50, 57);
-    // border-bottom: 2px solid rgb(255, 255, 255);
+    text-decoration: none;
     width: 96px;
     text-align: right;
     margin-right: 20px;
@@ -149,7 +147,7 @@ const StyledArrowBox = styled.div`
     display: flex;
     justify-content: space-between;
 `;
-const StyledArrowNext = styled.h3`
+const StyledNext = styled(Link)`
     font-family: helvetica;
     font-size: 12px;
     color: rgb(0, 50, 57);
@@ -157,8 +155,9 @@ const StyledArrowNext = styled.h3`
     margin-top: 17px;
     margin-right: 20px;
     opacity: 80%;
+    text-decoration: none;
 `;
-const StyledArrowPre = styled.h3`
+const StyledPrevious = styled(Link)`
     font-family: helvetica;
     font-size: 12px;
     color: rgb(0, 50, 57);
@@ -166,5 +165,6 @@ const StyledArrowPre = styled.h3`
     margin-top: 17px;
     margin-left: 20px;
     opacity: 80%;
+    text-decoration: none;
 `;
 

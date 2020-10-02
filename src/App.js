@@ -16,6 +16,10 @@ function App() {
           render={LandingPage}
         />
         <Route
+          path="/home"
+          component={LandingPage}
+        />
+        <Route
           path="/projects"
           component={ProjectsPage}
         />

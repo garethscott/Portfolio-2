@@ -20,6 +20,6 @@ export default LandingPage;
 const StyledLogoBlack = styled.img`
     width: 30px;
     position: fixed;
-    right: 15px;
-    top: 15px;
+    right: 20px;
+    top: 20px;
 `;

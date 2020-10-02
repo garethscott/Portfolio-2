@@ -25,52 +25,69 @@ const ProjectsPage = () => {
                     <ProjectsCopy />
                 </StyledProjectContent>
             </StyledProjectsIntroBox>
-
             <StyledProjectImageBox>
                 <ProjectBox
-                    img={KeyCodeImg}
-                    heading="Key Code"
-                    subHeading="Javascript"
-                />
-                <ProjectBox
-                    img={DrumKitImg}
-                    heading="Drum kit"
-                    subHeading="Javascript"
-                />
-                <ProjectBox
-                    img={DiceGameImg}
-                    heading="Drum kit"
-                    subHeading="Javascript"
-                />
-                <ProjectBox
-                    img={CalcImg}
-                    heading="Calculator"
-                    subHeading="React.js"
-                />
-                <ProjectBox
-                    img={AddBookImg}
-                    heading="Address Book"
-                    subHeading="React.js"
-                />
-                <ProjectBox
-                    img={TodoImg}
-                    heading="Todo App"
+                    img={TravelImg}
+                    alt=""
+                    heading="Travel App"
                     subHeading="MERN Stack"
-                />
-                <ProjectBox
-                    img={PokeImg}
-                    heading="Pokemon App"
-                    subHeading="React.js"
+                    url="#"
                 />
                 <ProjectBox
                     img={WeatherImg}
+                    alt=""
                     heading="Weather App"
                     subHeading="Node.js"
+                    url="#"
                 />
                 <ProjectBox
-                    img={TravelImg}
-                    heading="Travel App"
+                    img={PokeImg}
+                    alt=""
+                    heading="Pokemon App"
+                    subHeading="React.js"
+                    url="#"
+                />
+                <ProjectBox
+                    img={TodoImg}
+                    alt=""
+                    heading="Todo App"
                     subHeading="MERN Stack"
+                    url="#"
+                />
+                <ProjectBox
+                    img={AddBookImg}
+                    alt=""
+                    heading="Address Book"
+                    subHeading="React.js"
+                    url="#"
+                />
+                <ProjectBox
+                    img={CalcImg}
+                    alt=""
+                    heading="Calculator"
+                    subHeading="React.js"
+                    url="#"
+                />
+                <ProjectBox
+                    img={DiceGameImg}
+                    alt=""
+                    heading="Drum kit"
+                    subHeading="Javascript"
+                    url="#"
+                />
+                <ProjectBox
+                    img={DrumKitImg}
+                    alt=""
+                    heading="Drum kit"
+                    subHeading="Javascript"
+                    url="#"
+                />
+                <ProjectBox
+                    img={KeyCodeImg}
+                    alt=""
+                    heading="Key Code"
+                    subHeading="Javascript"
+                    url="/keycode"
                 />
             </StyledProjectImageBox>
             <ContactBox />
@@ -93,8 +110,8 @@ const StyledProjectsIntroBox = styled.div`
 const StyledBlackLogo = styled.img`
     width: 30px;
     position: absolute;
-    top: 15px;
-    right: 15px;
+    top: 20px;
+    right: 20px;
 `;
 const StyledProjectContent = styled.div`
     width: 83%;

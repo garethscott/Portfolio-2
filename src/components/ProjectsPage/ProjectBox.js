@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const ProjectBox = (props) => {
     return (
-        <StyledProjectBox to="#">
+        <StyledProjectBox to={props.url}>
             <StyledImg src={props.img} alt={props.alt} />
             <StyledFig>
                 <StyledImgHeading>{props.heading}</StyledImgHeading>
