@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { BrowserRouter, Route } from 'react-router-dom';
 import LandingPage from './components/LandingPage/LandingPage';
 import ProjectsPage from './components/ProjectsPage/ProjectsPage';
+import CalcPage from './components/WorkPages/CalcPage';
 import DiceGamePage from './components/WorkPages/DiceGamePage';
 import DrumKitPage from './components/WorkPages/DrumKitPage';
 import KeyCodePage from './components/WorkPages/KeyCodePage';
@@ -24,6 +25,10 @@ function App() {
         <Route
           path="/projects"
           component={ProjectsPage}
+        />
+        <Route
+          path="/calculator"
+          component={CalcPage}
         />
         <Route
           path="/dicegame"

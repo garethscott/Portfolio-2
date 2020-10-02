@@ -66,7 +66,7 @@ const ProjectsPage = () => {
                     alt=""
                     heading="Calculator"
                     subHeading="React.js"
-                    url="#"
+                    url="/calculator"
                 />
                 <ProjectBox
                     img={DiceGameImg}

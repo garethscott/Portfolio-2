@@ -11,8 +11,8 @@ const DiceGamePage = () => {
                 workImg={WorkPicDiceGame}
                 heading="Dice Game"
                 copy="The Dice Game, in order for a participant to win they must score 
-                over twenty-one to win, if they roll a score of one at anytime they loose 
-                immediately! This app was built using HTML, CSS and vanilla Javascript."
+                over twenty-one, if they roll a score of one at anytime they loose 
+                immediately! This app was built using HTML, CSS and Vanilla Javascript."
                 workUrl="https://garethscott.github.io/Dice-Multiplayer-Project-/"
                 previousUrl="#"
                 nextUrl="#"
