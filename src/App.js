@@ -3,6 +3,11 @@ import styled from 'styled-components';
 import { BrowserRouter, Route } from 'react-router-dom';
 import LandingPage from './components/LandingPage/LandingPage';
 import ProjectsPage from './components/ProjectsPage/ProjectsPage';
+import TravelAppPage from './components/WorkPages/TravelAppPage';
+import WeatherAppPage from './components/WorkPages/WeatherAppPage';
+import PokePage from './components/WorkPages/PokePage';
+import TodoPage from './components/WorkPages/TodoPage';
+import AddBookPage from './components/WorkPages/AddBookPage';
 import CalcPage from './components/WorkPages/CalcPage';
 import DiceGamePage from './components/WorkPages/DiceGamePage';
 import DrumKitPage from './components/WorkPages/DrumKitPage';
@@ -25,6 +30,26 @@ function App() {
         <Route
           path="/projects"
           component={ProjectsPage}
+        />
+        <Route
+          path="/travelapp"
+          component={TravelAppPage}
+        />
+        <Route
+          path="/weatherapp"
+          component={WeatherAppPage}
+        />
+        <Route
+          path="/pokemonapp"
+          component={PokePage}
+        />
+        <Route
+          path="/todoapp"
+          component={TodoPage}
+        />
+        <Route
+          path="/addressbook"
+          component={AddBookPage}
         />
         <Route
           path="/calculator"

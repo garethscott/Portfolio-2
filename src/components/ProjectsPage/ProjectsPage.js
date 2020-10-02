@@ -31,35 +31,35 @@ const ProjectsPage = () => {
                     alt=""
                     heading="Travel App"
                     subHeading="MERN Stack"
-                    url="#"
+                    url="/travelapp"
                 />
                 <ProjectBox
                     img={WeatherImg}
                     alt=""
                     heading="Weather App"
                     subHeading="Node.js"
-                    url="#"
+                    url="/weatherapp"
                 />
                 <ProjectBox
                     img={PokeImg}
                     alt=""
                     heading="Pokemon App"
                     subHeading="React.js"
-                    url="#"
+                    url="/pokemonapp"
                 />
                 <ProjectBox
                     img={TodoImg}
                     alt=""
                     heading="Todo App"
                     subHeading="MERN Stack"
-                    url="#"
+                    url="/todoapp"
                 />
                 <ProjectBox
                     img={AddBookImg}
                     alt=""
                     heading="Address Book"
                     subHeading="React.js"
-                    url="#"
+                    url="/addressbook"
                 />
                 <ProjectBox
                     img={CalcImg}
