@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import ScrollToTopContoller from '../ScrollToTopController';
 import ProjectsHeading from './ProjectsHeading';
 import ProjectsCopy from './ProjectsCopy';
 import ProjectBox from './ProjectBox';
@@ -19,6 +20,7 @@ import TravelImg from './Images/Project-Square-TravelApp.jpg';
 const ProjectsPage = () => {
     return (
         <>
+            <ScrollToTopContoller />
             <StyledProjectsIntroBox>
                 <Link to="/home">
                     <StyledBlackLogo src={MainLogoBlack} alt="Gareth's logo" />

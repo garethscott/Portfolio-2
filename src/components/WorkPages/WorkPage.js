@@ -24,7 +24,7 @@ const WorkPage = (props) => {
                         <StyledCopy>{props.copy}</StyledCopy>
                         <StyledLineBot />
                         <StyledLineTop />
-                        <StyledSeeLink href={props.workUrl}>See online</StyledSeeLink>
+                        <StyledSeeLink href={props.workUrl} target="_blank" rel="noopener noreferrer">See online</StyledSeeLink>
                     </StyledCopyBox>
                 </StyledCopyFrame>
             </StyledContentBox>

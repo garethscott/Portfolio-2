@@ -7,9 +7,15 @@ import LinkedInLogo from './Images/social-logo-linkedin-white.png';
 const SocialWhiteNav = () => {
     return (
         <StyledBox>
-            <StyledGithubLink src={GithubLogo} alt="Link to Gareth's Github" />
-            <StyledNavLink src={LinkedInLogo} alt="Link to Gareth's Linked In" />
-            <StyledNavLink src={InstaLogo} alt="Link to Gareth's Instagram" />
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/garethscott">
+                <StyledGithubLink src={GithubLogo} alt="Link to Gareth's Github" />
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/gareth-scott-70bba354/">
+                <StyledNavLink src={LinkedInLogo} alt="Link to Gareth's Linked In" />
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/garethscott1986/?hl=en">
+                <StyledNavLink src={InstaLogo} alt="Link to Gareth's Instagram" />
+            </a>
         </StyledBox>
     )
 }

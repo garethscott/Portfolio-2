@@ -8,9 +8,15 @@ const SocialNav = (props) => {
             <Link to="/contact">
                 <StyledMessage src={props.message} alt="Link to message Gareth" />
             </Link>
-            <StyledGit src={props.git} alt="Link to Gareth's Github" />
-            <StyledLinked src={props.linkedin} alt="Link to Gareth's Linked in" />
-            <StyledInsta src={props.insta} alt="Link to Gareth's Instagram" />
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/garethscott">
+                <StyledGit src={props.git} alt="Link to Gareth's Github" />
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/gareth-scott-70bba354/">
+                <StyledLinked src={props.linkedin} alt="Link to Gareth's Linked in" />
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/garethscott1986/?hl=en">
+                <StyledInsta src={props.insta} alt="Link to Gareth's Instagram" />
+            </a>
         </StyeldSocialNavBox>
     )
 }

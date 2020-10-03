@@ -38,11 +38,11 @@ const StyledLogo = styled.img`
     right: 20px;
 `;
 const StyledContentBox = styled.div`
-    width: 83%;
+    width: 87%;
     height: 285px;
     // background: lightblue;
     margin-left: 20px;
     padding: 15px 0;
-    border-top: 2px solid rgb(255, 255, 255);
-    border-bottom: 2px solid rgb(255, 255, 255);
+    border-top: 3px solid rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(255, 255, 255);
 `;
