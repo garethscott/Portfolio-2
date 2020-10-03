@@ -1,13 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import AboutImg from './images/about-img.jpg';
 import AboutHeading from './AboutHeading';
 import AboutCopy from './AboutCopy';
 
 const AboutBox = () => {
     return (
-        <StyledAboutImg img={AboutImg}>
+        <StyledAboutImg>
             <StyledAboutContent>
                 <AboutHeading />
                 <AboutCopy />
@@ -24,7 +23,6 @@ export default AboutBox;
 const StyledAboutImg = styled.div`
     height: 100vh;
     width: 100%;
-    // background-image: url(${props => props.img});
     background-size: cover;
     background-color: rgb(5, 205, 229);
     display: flex;

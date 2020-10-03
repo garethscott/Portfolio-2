@@ -25,7 +25,7 @@ const LandingPage = () => {
                         />) : (
                             <StyledLogoPink
                                 src={LogoHover}
-                                alt="Gareth's Pink Logo"
+                                alt="Gareth's Medium Blue Logo"
                             />)}
                 </div>
             </Link>
