@@ -1,10 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const SocialNav = (props) => {
     return (
         <StyeldSocialNavBox>
-            <StyledMessage src={props.message} alt="Link to message Gareth" />
+            <Link to="/contact">
+                <StyledMessage src={props.message} alt="Link to message Gareth" />
+            </Link>
             <StyledGit src={props.git} alt="Link to Gareth's Github" />
             <StyledLinked src={props.linkedin} alt="Link to Gareth's Linked in" />
             <StyledInsta src={props.insta} alt="Link to Gareth's Instagram" />

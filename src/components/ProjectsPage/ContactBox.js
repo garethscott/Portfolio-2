@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import ContactHeading from './ContactHeading';
 import ContactDetails from './ContactDetails';
 import SocialWhiteNav from './SocialWhiteNav';
@@ -13,7 +14,9 @@ const ContactBox = () => {
                 <ContactDetails />
                 <StyledLogosBox>
                     <SocialWhiteNav />
-                    <StyledLogoPink src={MainLogoPink} />
+                    <Link to="/home">
+                        <StyledLogoPink src={MainLogoPink} />
+                    </Link>
                 </StyledLogosBox>
             </StyledContactContent>
         </StyledContactBox>

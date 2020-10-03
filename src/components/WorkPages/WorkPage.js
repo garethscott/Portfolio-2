@@ -8,8 +8,12 @@ import XButton from './images/x-button.png';
 const WorkPage = (props) => {
     return (
         <StyledBackground backColor={props.backgroundColor}>
-            <Link to="/home"><StyledBlackLogo src={MainBlackLogo} alt="Gareth's Logo" /></Link>
-            <Link to="/projects"><StyledX src={XButton} alt="Closing Button, back to projects" /></Link>
+            <Link to="/home">
+                <StyledBlackLogo src={MainBlackLogo} alt="Gareth's Logo" />
+            </Link>
+            <Link to="/projects">
+                <StyledX src={XButton} alt="Closing Button, back to projects" />
+            </Link>
             <StyledContentBox>
                 <StyledImgFrame imgBackColor={props.backImg}>
                     <StyledWorkImg src={props.workImg} />

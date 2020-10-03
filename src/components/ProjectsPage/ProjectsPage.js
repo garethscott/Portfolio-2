@@ -20,7 +20,9 @@ const ProjectsPage = () => {
     return (
         <>
             <StyledProjectsIntroBox>
-                <Link to="/home"><StyledBlackLogo src={MainLogoBlack} alt="Gareth's logo" /></Link>
+                <Link to="/home">
+                    <StyledBlackLogo src={MainLogoBlack} alt="Gareth's logo" />
+                </Link>
                 <StyledProjectContent>
                     <ProjectsHeading />
                     <ProjectsCopy />

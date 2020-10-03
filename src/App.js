@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { BrowserRouter, Route } from 'react-router-dom';
 import LandingPage from './components/LandingPage/LandingPage';
 import ProjectsPage from './components/ProjectsPage/ProjectsPage';
+import ContactPage from './components/ContactPage/ContactPage';
 import TravelAppPage from './components/WorkPages/TravelAppPage';
 import WeatherAppPage from './components/WorkPages/WeatherAppPage';
 import PokePage from './components/WorkPages/PokePage';
@@ -30,6 +31,10 @@ function App() {
         <Route
           path="/projects"
           component={ProjectsPage}
+        />
+        <Route
+          path="/contact"
+          component={ContactPage}
         />
         <Route
           path="/travelapp"

@@ -9,7 +9,9 @@ import LogoBlack from './images/logo-border-black.png';
 const LandingPage = () => {
     return (
         <div>
-            <Link to="/home"><StyledLogoBlack src={LogoBlack} alt="Gareth's Black Logo" /></Link>
+            <Link to="/home">
+                <StyledLogoBlack src={LogoBlack} alt="Gareth's Black Logo" />
+            </Link>
             <GreetingBox />
             <AboutBox />
         </div>
