@@ -58,7 +58,11 @@ const StyledLogoBlack = styled.img`
     position: fixed;
     right: 20px;
     top: 20px;
+    @media only screen and (min-width: 321px) {
+       width: 80px;
+    }
 `;
+
 // const StyledLogoPink = styled.img`
 //     width: 30px;
 //     position: fixed;
