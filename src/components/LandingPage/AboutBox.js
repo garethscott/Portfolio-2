@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import AboutHeading from './AboutHeading';
 import AboutCopy from './AboutCopy';
 
-const AboutBox = () => {
+const AboutBox = (props) => {
     return (
         <StyledAboutImg>
             <StyledAboutContent>
@@ -12,7 +12,14 @@ const AboutBox = () => {
                 <AboutCopy />
                 <StyledTextFade />
                 <StyledLineBelow />
-                <StyledMove><StyledProjectsLink to="/projects">See my projects</StyledProjectsLink></StyledMove>
+                <StyledMove>
+                    <StyledProjectsLink
+                        onMouseEnter={props.seeprojectsenter}
+                        onMouseLeave={props.seeprojectsleave}
+                        seeprojectscolor={props.seeprojectscolor}
+                        to="/projects">See my projects
+                    </StyledProjectsLink>
+                </StyledMove>
             </StyledAboutContent>
         </StyledAboutImg >
     )
@@ -61,7 +68,10 @@ const StyledProjectsLink = styled(Link)`
     font-size: 20px;
     font-weight: 600;
     font-style: italic;
-    color: rgb(0, 50, 57);
+
+    color: ${props => props.seeprojectscolor};
+
+    // color: rgb(0, 50, 57);
     // border-bottom: 3px solid rgb(0, 50, 57);
     text-decoration: none;
     width: 96px;

@@ -1,10 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import SocialNav from './SocialNav'
-import LogoMessage from './images/logo-message.png';
-import LogoGithub from './images/logo-github.png';
-import LogoLinkedIn from './images/logo-linkedin.png';
-import LogoInsta from './images/logo-insta.png';
 
 const GreetingBox = () => {
     return (
@@ -15,11 +10,6 @@ const GreetingBox = () => {
                 <StyledLineShort />
                 <StyledPleaseScroll>Please Scroll</StyledPleaseScroll>
             </StyledGreetCopyBox>
-            <SocialNav
-                message={LogoMessage}
-                git={LogoGithub}
-                linkedin={LogoLinkedIn}
-                insta={LogoInsta} />
         </StyledGreetImg >
     )
 }

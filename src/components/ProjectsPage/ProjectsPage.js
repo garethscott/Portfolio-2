@@ -7,6 +7,7 @@ import ProjectsCopy from './ProjectsCopy';
 import ProjectBox from './ProjectBox';
 import ContactBox from './ContactBox';
 import MainLogoBlack from './Images/logo-border-black.png';
+import LogoMediumBlue from '../LandingPage/images/logo-hover.png';
 import KeyCodeImg from './Images/Project-Square-Keycode.jpg';
 import DrumKitImg from './Images/Project-Square-DrumKit.jpg';
 import DiceGameImg from './Images/Project-Square-DiceGame.jpg';
@@ -17,13 +18,25 @@ import PokeImg from './Images/Project-Square-Poke.jpg';
 import WeatherImg from './Images/Project-Square-WeatherApp.jpg';
 import TravelImg from './Images/Project-Square-TravelApp.jpg';
 
-const ProjectsPage = () => {
+const ProjectsPage = (props) => {
     return (
         <>
             <ScrollToTopContoller />
             <StyledProjectsIntroBox>
                 <Link to="/home">
-                    <StyledBlackLogo src={MainLogoBlack} alt="Gareth's logo" />
+                    <div
+                        onMouseEnter={props.projectsLogoEnter}
+                        onMouseLeave={props.projectsLogoLeave}
+                    >{props.projectsLogoHov ? (
+                        <StyledBlackLogo
+                            src={MainLogoBlack}
+                            alt="Gareth's logo"
+                        />) : (
+                            <StyledBlackLogo
+                                src={LogoMediumBlue}
+                                alt="Gareth's logo"
+                            />)}
+                    </div>
                 </Link>
                 <StyledProjectContent>
                     <ProjectsHeading />

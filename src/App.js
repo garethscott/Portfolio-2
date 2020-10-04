@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import { BrowserRouter, Route } from 'react-router-dom';
 import LandingPage from './components/LandingPage/LandingPage';
@@ -16,21 +16,77 @@ import KeyCodePage from './components/WorkPages/KeyCodePage';
 
 
 function App() {
+  const [logoHover, setLogoHover] = useState(true);
+  const [messageLogo, setMessageLogo] = useState(true);
+  const [githubLogo, setGithubLogo] = useState(true);
+  const [linkedInLogo, setLinkedInLogo] = useState(true);
+  const [instaLogo, setInstaLogo] = useState(true);
+  const [seeProjectsColor, setSeeProjectsColor] = useState("rgb(0, 50, 57)");
+  const [projectsLogoHov, setProjectsLogoHov] = useState(true);
+
   return (
     <BrowserRouter>
       <StyledApp>
         <Route
           exact
           path="/"
-          render={LandingPage}
+          render={() => (
+            <LandingPage
+              onMouseEnter={() => setLogoHover(false)}
+              onMouseLeave={() => setLogoHover(true)}
+              logoHover={logoHover}
+              enterMessage={() => setMessageLogo(false)}
+              leaveMessage={() => setMessageLogo(true)}
+              messageLogo={messageLogo}
+              enterGithub={() => setGithubLogo(false)}
+              leaveGithub={() => setGithubLogo(true)}
+              githubLogo={githubLogo}
+              enterLinkedIn={() => setLinkedInLogo(false)}
+              leaveLinkedIn={() => setLinkedInLogo(true)}
+              linkedInLogo={linkedInLogo}
+              enterInsta={() => setInstaLogo(false)}
+              leaveInsta={() => setInstaLogo(true)}
+              instaLogo={instaLogo}
+              seeprojectscolor={seeProjectsColor}
+              seeprojectsenter={() => setSeeProjectsColor("rgb(37, 135, 149)")}
+              seeprojectsleave={() => setSeeProjectsColor("rgb(0, 50, 57)")}
+            />
+          )}
         />
         <Route
           path="/home"
-          component={LandingPage}
+          render={() => (
+            <LandingPage
+              onMouseEnter={() => setLogoHover(false)}
+              onMouseLeave={() => setLogoHover(true)}
+              logoHover={logoHover}
+              enterMessage={() => setMessageLogo(false)}
+              leaveMessage={() => setMessageLogo(true)}
+              messageLogo={messageLogo}
+              enterGithub={() => setGithubLogo(false)}
+              leaveGithub={() => setGithubLogo(true)}
+              githubLogo={githubLogo}
+              enterLinkedIn={() => setLinkedInLogo(false)}
+              leaveLinkedIn={() => setLinkedInLogo(true)}
+              linkedInLogo={linkedInLogo}
+              enterInsta={() => setInstaLogo(false)}
+              leaveInsta={() => setInstaLogo(true)}
+              instaLogo={instaLogo}
+              seeprojectscolor={seeProjectsColor}
+              seeprojectsenter={() => setSeeProjectsColor("rgb(37, 135, 149)")}
+              seeprojectsleave={() => setSeeProjectsColor("rgb(0, 50, 57)")}
+            />
+          )}
         />
         <Route
           path="/projects"
-          component={ProjectsPage}
+          render={() => (
+            <ProjectsPage
+              projectsLogoHov={projectsLogoHov}
+              projectsLogoEnter={() => setProjectsLogoHov(false)}
+              projectsLogoLeave={() => setProjectsLogoHov(true)}
+            />
+          )}
         />
         <Route
           path="/contact"
