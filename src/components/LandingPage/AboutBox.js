@@ -62,22 +62,30 @@ const StyledLineBelow = styled.div`
     position: absolute;
     left: 20px;
     bottom: 80px;
+
+    // PORTRAIT MOBILE SCREENS - MOTOG4 & GALAXYS5 - PORTRAIT
+    @media only screen and (min-width: 360px) and (max-width: 361px)
+    and (min-height: 569px) and (max-height: 641px) {
+        border-top: 3px solid rgb(0, 50, 57);
+    }
 `;
 const StyledProjectsLink = styled(Link)`
     font-family: helvetica;
     font-size: 20px;
     font-weight: 600;
     font-style: italic;
-
     color: ${props => props.seeprojectscolor};
-
-    // color: rgb(0, 50, 57);
-    // border-bottom: 3px solid rgb(0, 50, 57);
     text-decoration: none;
     width: 96px;
     text-align: right;
     margin-right: 20px;
     margin-top: 12px;
+
+    // PORTRAIT MOBILE SCREENS - MOTOG4 & GALAXYS5 - PORTRAIT
+    @media only screen and (min-width: 360px) and (max-width: 361px)
+    and (min-height: 569px) and (max-height: 641px) {
+        font-size: 23px;
+    }
 `;
 const StyledMove = styled.div`
    width: 200px;

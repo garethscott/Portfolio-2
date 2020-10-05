@@ -58,70 +58,16 @@ const StyledLogoBlack = styled.img`
     position: fixed;
     right: 20px;
     top: 20px;
-    @media only screen and (min-width: 321px) {
-       width: 80px;
+    
+    // PORTRAIT MOBILE SCREENS - MOTOG4 & GALAXYS5 - PORTRAIT
+    @media only screen and (min-width: 360px) and (max-width: 361px)
+    and (min-height: 569px) and (max-height: 641px) {
+       width: 33px;
+    }
+
+    // PORTRAIT MOBILE SCREENS - IPHONE,6,7,8 & PLUS & X - PIXEL 2 & XL - SURFACE DUO
+    @media only screen and (min-width: 374px) and (max-width: 541px)
+    and (min-height: 665px) and (max-height: 824px) {
+       width: 33px;
     }
 `;
-
-// const StyledLogoPink = styled.img`
-//     width: 30px;
-//     position: fixed;
-//     right: 20px;
-//     top: 20px;
-// `;
-
-
-
-
-
-// import React, { useState } from 'react';
-// import { Link } from 'react-router-dom';
-// import styled from 'styled-components';
-// import ScrollToTopController from '../ScrollToTopController';
-// import GreetingBox from './GreetingBox';
-// import AboutBox from './AboutBox'
-// import LogoBlack from './images/logo-border-black.png';
-// import LogoHover from './images/logo-hover.png';
-
-
-// const LandingPage = () => {
-//     const [logoHover, setLogoHover] = useState(true);
-
-//     return (
-//         <div>
-//             <ScrollToTopController />
-//             <Link to="/home">
-//                 <div
-//                     onMouseEnter={() => setLogoHover(false)}
-//                     onMouseLeave={() => setLogoHover(true)}>
-//                     {logoHover ? (
-//                         <StyledLogoBlack
-//                             src={LogoBlack}
-//                             alt="Gareth's Black Logo"
-//                         />) : (
-//                             <StyledLogoPink
-//                                 src={LogoHover}
-//                                 alt="Gareth's Medium Blue Logo"
-//                             />)}
-//                 </div>
-//             </Link>
-//             <GreetingBox />
-//             <AboutBox />
-//         </div >
-//     )
-// }
-
-// export default LandingPage;
-
-// const StyledLogoBlack = styled.img`
-//     width: 30px;
-//     position: fixed;
-//     right: 20px;
-//     top: 20px;
-// `;
-// const StyledLogoPink = styled.img`
-//     width: 30px;
-//     position: fixed;
-//     right: 20px;
-//     top: 20px;
-// `;
