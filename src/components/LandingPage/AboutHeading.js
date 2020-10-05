@@ -23,7 +23,7 @@ const StyledAboutHeadingBox = styled.div`
     // PORTRAIT MOBILE SCREENS - IPHONE,6,7,8 & PLUS & X - PIXEL 2 & XL - SURFACE DUO
     @media only screen and (min-width: 374px) and (max-width: 541px)
     and (min-height: 665px) and (max-height: 824px) {
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
 `;
 const StyledAboutHeading = styled.h1`
@@ -93,7 +93,7 @@ const StyledLineShort = styled.div`
     // PORTRAIT MOBILE SCREENS - IPHONE,6,7,8 & PLUS & X - PIXEL 2 & XL - SURFACE DUO
     @media only screen and (min-width: 374px) and (max-width: 541px)
     and (min-height: 665px) and (max-height: 824px) {
-        margin-top: 23px;
+        margin-top: 30px;
         border-top: 3px solid rgb(0, 50, 57);
     }
 `;

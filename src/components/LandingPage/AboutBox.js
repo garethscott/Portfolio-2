@@ -37,6 +37,12 @@ const StyledAboutImg = styled.div`
     justify-content: center;
     flex-direction: column;
     background-attachment: fixed;
+
+    // LANDSCAPE MOBILE SCREENS - MOTOG4 & GALAXYS5 - IPHONE,6,7,8 & X - LANDSCAPE
+    @media only screen and (min-width: 568px) and (max-width: 667px)
+    and (min-height: 320px) and (max-height: 375px) {
+        flex-direction: row;
+    }
 `;
 const StyledAboutContent = styled.div`
     width: 90%;

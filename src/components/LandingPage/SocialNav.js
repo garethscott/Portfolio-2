@@ -105,7 +105,7 @@ const StyeldSocialNavBox = styled.div`
     @media only screen and (min-width: 374px) and (max-width: 541px)
     and (min-height: 665px) and (max-height: 824px) {
         width: 25px;
-        height: 161px;
+        height: 150px;
     }
 
 `;
@@ -121,7 +121,7 @@ const StyledMessage = styled.img`
     // PORTRAIT MOBILE SCREENS - IPHONE,6,7,8 & PLUS & X - PIXEL 2 & XL - SURFACE DUO
     @media only screen and (min-width: 374px) and (max-width: 541px)
     and (min-height: 665px) and (max-height: 824px) {
-        width: 23px;
+        width: 21px;
     }
 `;
 const StyledGit = styled.img`
@@ -136,7 +136,7 @@ const StyledGit = styled.img`
     // PORTRAIT MOBILE SCREENS - IPHONE,6,7,8 & PLUS & X - PIXEL 2 & XL - SURFACE DUO
     @media only screen and (min-width: 374px) and (max-width: 541px)
     and (min-height: 665px) and (max-height: 824px) {
-        width: 26px;
+        width: 23px;
     }
 `;
 const StyledLinked = styled.img`
@@ -151,7 +151,7 @@ const StyledLinked = styled.img`
     // PORTRAIT MOBILE SCREENS - IPHONE,6,7,8 & PLUS & X - PIXEL 2 & XL - SURFACE DUO
     @media only screen and (min-width: 374px) and (max-width: 541px)
     and (min-height: 665px) and (max-height: 824px) {
-        width: 23px;
+        width: 21px;
     }
 `;
 const StyledInsta = styled.img`
@@ -160,12 +160,12 @@ const StyledInsta = styled.img`
     // PORTRAIT MOBILE SCREENS - MOTOG4 & GALAXYS5 - PORTRAIT
     @media only screen and (min-width: 360px) and (max-width: 361px)
     and (min-height: 569px) and (max-height: 641px) {
-       width: 23px;
+       width: 21px;
     }
 
     // PORTRAIT MOBILE SCREENS - IPHONE,6,7,8 & PLUS & X - PIXEL 2 & XL - SURFACE DUO
     @media only screen and (min-width: 374px) and (max-width: 541px)
     and (min-height: 665px) and (max-height: 824px) {
-        width: 23px;
+        width: 21px;
     }
 `;

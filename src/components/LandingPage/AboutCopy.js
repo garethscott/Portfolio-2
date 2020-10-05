@@ -53,7 +53,7 @@ const StyledOverflow = styled.div`
     }
 `;
 const StyledAboutCopy = styled.p`
-    width: 79%;
+    width: 85%;
     font-family: 'Open Sans';
     font-size: 12px;
     color: rgba(0, 50, 57, 80%);
@@ -70,6 +70,12 @@ const StyledAboutCopy = styled.p`
     and (min-height: 665px) and (max-height: 824px) {
         font-size: 13px;
        line-height: 1.4em; 
+    }
+
+    // PORTRAIT MOBILE SCREENS - SURFACE DUO - WIDER WIDTH
+    @media only screen and (min-width: 509px) and (max-width: 720px)
+    and (min-height: 719px) and (max-height: 721px) {
+        width: 330px;
     }
  `;
 const StyledBottomSpacer = styled.div`

@@ -43,7 +43,7 @@ const StyledProjectBox = styled(Link)`
     // PORTRAIT MOBILE SCREENS - SURFACE DUO - WIDER WIDTH
     @media only screen and (min-width: 509px) and (max-width: 720px)
     and (min-height: 719px) and (max-height: 721px) {
-        margin-bottom: 180px;
+        margin-bottom: 184px;
         width: 92%;
     }
 `;
