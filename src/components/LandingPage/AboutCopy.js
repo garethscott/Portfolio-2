@@ -44,12 +44,33 @@ const StyledOverflow = styled.div`
     margin-left: 20px;
     position: relative;
     overflow-y: scroll;
+
+    // PORTRAIT MOBILE SCREENS - IPHONE,6,7,8 & PLUS & X - PIXEL 2 & XL - SURFACE DUO
+    @media only screen and (min-width: 374px) and (max-width: 541px)
+    and (min-height: 665px) and (max-height: 824px) {
+        height: 330px;
+      
+    }
 `;
 const StyledAboutCopy = styled.p`
     width: 79%;
     font-family: 'Open Sans';
     font-size: 12px;
-    color: rgb(0, 50, 57);
+    color: rgba(0, 50, 57, 80%);
+
+    // PORTRAIT MOBILE SCREENS - MOTOG4 & GALAXYS5 - PORTRAIT
+   @media only screen and (min-width: 360px) and (max-width: 361px)
+   and (min-height: 569px) and (max-height: 641px) {
+       font-size: 13px;
+       line-height: 1.4em;
+   }
+
+   // PORTRAIT MOBILE SCREENS - IPHONE,6,7,8 & PLUS & X - PIXEL 2 & XL - SURFACE DUO
+    @media only screen and (min-width: 374px) and (max-width: 541px)
+    and (min-height: 665px) and (max-height: 824px) {
+        font-size: 13px;
+       line-height: 1.4em; 
+    }
  `;
 const StyledBottomSpacer = styled.div`
     width: 79%;

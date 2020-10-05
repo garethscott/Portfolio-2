@@ -5,7 +5,8 @@ const GreetingBox = () => {
     return (
         <StyledGreetImg>
             <StyledGreetCopyBox>
-                <StyledGreeting>Hello, I'm <br />Gareth Scott <br />and I'm a<br />junior dev</StyledGreeting>
+                {/* <StyledGreeting>Hello, I'm <br />Gareth Scott <br />and I'm a<br />junior dev</StyledGreeting> */}
+                <StyledGreeting>Hello, I'm Gareth Scott and I'm a junior dev</StyledGreeting>
                 <StyledFullStop />
                 <StyledLineShort />
                 <StyledPleaseScroll>Please Scroll</StyledPleaseScroll>
