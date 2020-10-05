@@ -125,6 +125,18 @@ const StyledContentBox = styled.div`
     and (min-height: 665px) and (max-height: 668px) {
         height: 500px;
     }
+
+    // IPHONE 6 7 8 PLUS - PORTRAIT - WORK IMAGE FRAME
+    @media only screen and (min-width: 413px) and (max-width: 415px)
+    and (min-height: 735px) and (max-height: 737px) {
+        height: 565px;
+    }
+
+    // IPHONE X - PORTRAIT - WORK IMAGE FRAME
+    @media only screen and (min-width: 374px) and (max-width: 376px)
+    and (min-height: 811px) and (max-height: 813px) {
+        height: 645px;
+    }
 `;
 const StyledImgFrame = styled.div`
     width: 100%;
@@ -163,9 +175,32 @@ const StyledImgFrame = styled.div`
     and (min-height: 665px) and (max-height: 668px) {
         height: 280px;
     }
+
+    // IPHONE 6 7 8 PLUS - PORTRAIT - WORK IMAGE FRAME
+    @media only screen and (min-width: 413px) and (max-width: 415px)
+    and (min-height: 735px) and (max-height: 737px) {
+        height: 330px;
+    }
+    // IPHONE X - PORTRAIT - WORK IMAGE FRAME
+    @media only screen and (min-width: 374px) and (max-width: 376px)
+    and (min-height: 811px) and (max-height: 813px) {
+        height: 360px;
+    }
+
+    // SURFACE PRO - PORTRAIT - WORK IMAGE FRAME
+    @media only screen and (min-width: 539px) and (max-width: 541px)
+    and (min-height: 719px) and (max-height: 721px) {
+        height: 340px;
+    }
 `;
 const StyledWorkImg = styled.img`
     height: 85%;
+
+    // IPHONE X - PORTRAIT - WORK IMAGE FRAME
+    @media only screen and (min-width: 374px) and (max-width: 376px)
+    and (min-height: 811px) and (max-height: 813px) {
+        height: 70%;
+    }
 `;
 const StyledCopyFrame = styled.div`
     width: 100%;
@@ -207,6 +242,12 @@ const StyledCopy = styled.p`
     and (min-height: 665px) and (max-height: 824px) {
         font-size: 13px;
        line-height: 1.4em; 
+    }
+
+    // SURFACE PRO - PORTRAIT - WORK IMAGE FRAME
+    @media only screen and (min-width: 539px) and (max-width: 541px)
+    and (min-height: 719px) and (max-height: 721px) {
+        max-width: 300px;
     }
 `;
 const StyledLineTop = styled.div`

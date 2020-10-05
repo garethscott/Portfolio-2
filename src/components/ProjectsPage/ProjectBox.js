@@ -66,6 +66,12 @@ const StyledImgHeading = styled.h3`
     and (min-height: 730px) and (max-height: 824px) {
         font-size: 16px;
     }
+
+    // SURFACE PRO - PORTRAIT - WORK IMAGE FRAME
+    @media only screen and (min-width: 539px) and (max-width: 541px)
+    and (min-height: 719px) and (max-height: 721px) {
+        font-size: 18px;
+    }
 `;
 const StyledSubHeading = styled.h3`
     color: rgb(0, 50, 57);
