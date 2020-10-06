@@ -55,10 +55,19 @@ const StyledAboutContent = styled.div`
     and (min-height: 320px) and (max-height: 375px) {
         //  background: red;
          width: 90%;
-         height: 80%;
+         height: 70%;
          display: flex;
-        margin-left: 20px;
+        margin-left: 40px;
 
+    }
+    
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 Plus & X - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE BIG PHONES
+    @media only screen and (min-width: 719px) and (max-width: 824px)
+    and (min-height: 375px) and (max-height: 540px) {
+        width: 90%;
+         height: 70%;
+         display: flex;
+        margin-left: 40px;
     }
 `;
 const StyledTextFade = styled.div`
@@ -88,6 +97,15 @@ const StyledTextFade = styled.div`
        bottom: 0%;
        left: 215px;
     }
+    
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 Plus & X - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE BIG PHONES
+    @media only screen and (min-width: 719px) and (max-width: 824px)
+    and (min-height: 375px) and (max-height: 540px) {
+        width: 55%;
+       height: 100px;
+       bottom: 0%;
+       left: 215px;
+    }
 `;
 const StyledLineBelow = styled.div`
     width: 20px;
@@ -109,10 +127,17 @@ const StyledLineBelow = styled.div`
         border-top: 3px solid rgb(0, 50, 57);
         bottom: 51px;
     }
+    
     // LANDSCAPE MOBILE SCREENS - MOTOG4 & GALAXYS5 - IPHONE,6,7,8 & X - LANDSCAPE
     @media only screen and (min-width: 568px) and (max-width: 667px)
     and (min-height: 320px) and (max-height: 375px) {
        display: none;
+    }
+
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 Plus & X - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE BIG PHONES
+    @media only screen and (min-width: 719px) and (max-width: 824px)
+    and (min-height: 375px) and (max-height: 540px) {
+        display: none;
     }
 `;
 const StyledProjectsLink = styled(Link)`
@@ -144,6 +169,17 @@ const StyledProjectsLink = styled(Link)`
     // LANDSCAPE MOBILE SCREENS - MOTOG4 & GALAXYS5 - IPHONE,6,7,8 & X - LANDSCAPE
     @media only screen and (min-width: 568px) and (max-width: 667px)
     and (min-height: 320px) and (max-height: 375px) {
+        position: absolute;
+        left: 17px;
+        top: 147px;
+        // background: yellow;
+        width: 170px;
+        text-align: left;
+    }
+
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 Plus & X - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE BIG PHONES
+    @media only screen and (min-width: 719px) and (max-width: 824px)
+    and (min-height: 375px) and (max-height: 540px) {
         position: absolute;
         left: 17px;
         top: 147px;

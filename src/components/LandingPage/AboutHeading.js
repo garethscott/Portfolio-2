@@ -35,6 +35,16 @@ const StyledAboutHeadingBox = styled.div`
         margin-top: 0px;
         margin-left: 20px;
     }
+
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 Plus & X - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE BIG PHONES
+    @media only screen and (min-width: 719px) and (max-width: 824px)
+    and (min-height: 375px) and (max-height: 540px) {
+        // background: lightblue;
+        width: 180px;
+        height: 140px;
+        margin-top: 0px;
+        margin-left: 20px;
+    }
 `;
 const StyledAboutHeading = styled.h1`
     color: rgb(0, 50, 57);
@@ -64,6 +74,12 @@ const StyledAboutHeading = styled.h1`
     // LANDSCAPE MOBILE SCREENS - MOTOG4 & GALAXYS5 - IPHONE,6,7,8 & X - LANDSCAPE
     @media only screen and (min-width: 568px) and (max-width: 667px)
     and (min-height: 320px) and (max-height: 375px) {
+        margin: 0;
+    }
+
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 Plus & X - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE BIG PHONES
+    @media only screen and (min-width: 719px) and (max-width: 824px)
+    and (min-height: 375px) and (max-height: 540px) {
         margin: 0;
     }
 `;
@@ -98,6 +114,13 @@ const StyledFullStop = styled.div`
         left: 129px;
         bottom: 28px;
     }
+
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 Plus & X - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE BIG PHONES
+    @media only screen and (min-width: 719px) and (max-width: 824px)
+    and (min-height: 375px) and (max-height: 540px) {
+        left: 129px;
+        bottom: 28px;
+    }
 `;
 const StyledLineShort = styled.div`
     width: 20px;
@@ -128,5 +151,16 @@ const StyledLineShort = styled.div`
         right: 160px;
         top: 137px;
 
+    }
+
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 Plus & X - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE BIG PHONES
+    @media only screen and (min-width: 719px) and (max-width: 824px)
+    and (min-height: 375px) and (max-height: 540px) {
+        // margin-left: 0px;
+        // margin-bottom: -200px;
+        border-top: 3px solid rgb(0, 50, 57);
+        position: absolute;
+        right: 160px;
+        top: 137px;
     }
 `;

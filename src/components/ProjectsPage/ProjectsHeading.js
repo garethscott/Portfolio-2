@@ -33,6 +33,17 @@ const StyledProjectsHeadingBox = styled.div`
        width: 350px;
        margin-bottom: 40px;
     }
+
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 Plus & X - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE PROJECTS
+    @media only screen and (min-width: 567px) and (max-width: 824px)
+    and (min-height: 319px) and (max-height: 541px) {
+        font-size: 44px;
+        line-height: 0.90em;
+        width: 300px;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+    
 `;
 const StyledProjectsHeading = styled.h1`
    color: rgb(0, 50, 57);
@@ -59,6 +70,14 @@ const StyledProjectsHeading = styled.h1`
         font-size: 50px;
         line-height: 0.99em;
     }
+    
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 Plus & X - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE PROJECTS
+    @media only screen and (min-width: 567px) and (max-width: 824px)
+    and (min-height: 319px) and (max-height: 541px) {
+        font-size: 44px;
+        line-height: 0.90em;
+        margin-top: 0px;
+    }
 `;
 const StyledFullStop = styled.div`
    height: 9px;
@@ -81,6 +100,14 @@ const StyledFullStop = styled.div`
     and (min-height: 665px) and (max-height: 824px) {
         top: 132px;
         left: 214px;
+    }
+    
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 Plus & X - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE PROJECTS
+    @media only screen and (min-width: 567px) and (max-width: 824px)
+    and (min-height: 319px) and (max-height: 541px) {
+      top: 104px;
+      left: 190px;
+    }
 `;
 const StyledTopLine = styled.div`
    width: 20px;
@@ -102,5 +129,14 @@ const StyledTopLine = styled.div`
         top: 170px;
         border-top: 3px solid rgb(0, 50, 57);
     }
+
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 Plus & X - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE PROJECTS
+    @media only screen and (min-width: 567px) and (max-width: 824px)
+    and (min-height: 319px) and (max-height: 541px) {
+      top: 146px;
+      left: 21px;
+      border-top: 3px solid rgb(0, 50, 57);
+    }
+
 `;
 

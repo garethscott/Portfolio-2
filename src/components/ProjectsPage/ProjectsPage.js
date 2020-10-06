@@ -141,12 +141,24 @@ const StyledBlackLogo = styled.img`
     and (min-height: 665px) and (max-height: 824px) {
         width: 33px; 
     }
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 Plus & X - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE PROJECTS
+    @media only screen and (min-width: 567px) and (max-width: 824px)
+    and (min-height: 319px) and (max-height: 541px) {
+      width: 33px;
+    }
 `;
 const StyledProjectContent = styled.div`
     width: 83%;
     height: 300px;
     margin-top: 25px;
     // background: yellow;
+
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 Plus & X - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE PROJECTS
+    @media only screen and (min-width: 567px) and (max-width: 824px)
+    and (min-height: 319px) and (max-height: 541px) {
+      height: 235px;
+      margin-top: 0px;
+    }
 `;
 const StyledProjectImageBox = styled.div`
     width: 100%;
@@ -179,5 +191,16 @@ const StyledProjectImageBox = styled.div`
     @media only screen and (min-width: 509px) and (max-width: 720px)
     and (min-height: 719px) and (max-height: 721px) {
         height: 3880px;
+    }
+
+    // FUCKING THIS ONE YELLOW BOX
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 Plus & X - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE PROJECTS
+    @media only screen and (min-width: 567px) and (max-width: 824px)
+    and (min-height: 319px) and (max-height: 541px) {
+      flex-direction: unset;
+      align-items: unset;
+      flex-wrap: wrap;
+    //   background: yellow;
+      height: 1400px;
     }
 `;

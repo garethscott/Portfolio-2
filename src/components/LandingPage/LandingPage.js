@@ -70,4 +70,9 @@ const StyledLogoBlack = styled.img`
     and (min-height: 665px) and (max-height: 824px) {
        width: 33px;
     }
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 Plus & X - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE BIG PHONES
+    @media only screen and (min-width: 719px) and (max-width: 824px)
+    and (min-height: 375px) and (max-height: 540px) {
+        width: 33px;
+    }
 `;

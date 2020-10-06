@@ -21,6 +21,18 @@ const StyledProjectsCopyBox = styled.div`
     height: 130px;
     // background: blue;
     margin-left: 20px;
+
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 Plus & X - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE PROJECTS
+    @media only screen and (min-width: 567px) and (max-width: 824px)
+    and (min-height: 319px) and (max-height: 541px) {
+       margin-left: 40px;
+    }
+
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 Plus & X - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE PROJECTS
+    @media only screen and (min-width: 567px) and (max-width: 824px)
+    and (min-height: 319px) and (max-height: 541px) {
+      max-width: 500px;
+    }
 `;
 const StyledProjectsCopy = styled.p`
     width: 79%;

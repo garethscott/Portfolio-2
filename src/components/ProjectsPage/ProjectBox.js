@@ -46,10 +46,37 @@ const StyledProjectBox = styled(Link)`
         margin-bottom: 184px;
         width: 92%;
     }
+    
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 Plus & X - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE PROJECTS
+    @media only screen and (min-width: 567px) and (max-width: 824px)
+    and (min-height: 319px) and (max-height: 541px) {
+       margin-top: 0px; 
+       margin-left: 23px;
+       margin-bottom: 0px;
+       width: 300px;
+    //    background: red;
+       height: 264px;
+    }
+
+    // // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 Plus & X - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE PROJECTS
+    // @media only screen and (min-width: 567px) and (max-width: 824px)
+    // and (min-height: 319px) and (max-height: 541px) {
+    //    margin-top: 0px; 
+    //    margin-left: 23px;
+    //    margin-bottom: 0px;
+    //    width: 300px;
+    // //    background: red;
+    //    height: 264px;
+    // }
 `;
 const StyledImg = styled.img`
     width: 100%;
-    height:
+
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 Plus & X - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE PROJECTS
+    @media only screen and (min-width: 567px) and (max-width: 824px)
+    and (min-height: 319px) and (max-height: 541px) {
+       margin: 0px;
+    }
 `;
 const StyledFig = styled.div`
     width: 100px;

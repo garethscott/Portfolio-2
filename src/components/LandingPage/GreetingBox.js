@@ -44,6 +44,15 @@ const StyledGreetCopyBox = styled.div`
         height: 280px;
         margin-left: 37px;
     }
+
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 Plus & X - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE BIG PHONES
+    @media only screen and (min-width: 719px) and (max-width: 824px)
+    and (min-height: 375px) and (max-height: 540px) {
+        width: 500px;
+        height: 235px;
+        margin: 45px;
+        // background: red;
+    }
 `;
 const StyledGreeting = styled.h1`
     color: rgb(0, 50, 57);
@@ -67,7 +76,7 @@ const StyledGreeting = styled.h1`
     and (min-height: 665px) and (max-height: 824px) {
         font-size: 50px;
         line-height: 0.99em;
-        margin-bottom: 50px;
+        margin-bottom: 44px;
     }
 
     // LANDSCAPE MOBILE SCREENS - MOTOG4 & GALAXYS5 - IPHONE,6,7,8 & X - LANDSCAPE
@@ -75,6 +84,14 @@ const StyledGreeting = styled.h1`
     and (min-height: 320px) and (max-height: 375px) {
         font-size: 47px;
         line-height: 1em;
+    }
+
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 Plus & X - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE BIG PHONES
+    @media only screen and (min-width: 719px) and (max-width: 824px)
+    and (min-height: 375px) and (max-height: 540px) {
+        font-size: 55px;
+        margin-bottom: 25px;
+        margin-top: 0px;
     }
 `;
 const StyledFullStop = styled.div`
@@ -106,6 +123,15 @@ const StyledFullStop = styled.div`
     and (min-height: 320px) and (max-height: 375px) {
         left: 242px;
         bottom: 116px;
+    }
+
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 Plus & X - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE BIG PHONES
+    @media only screen and (min-width: 719px) and (max-width: 824px)
+    and (min-height: 375px) and (max-height: 540px) {
+        width: 11px;
+        height: 11px;
+        left: 280px;
+        bottom: 84px;
     }
 `;
 const StyledLineShort = styled.div`
@@ -140,6 +166,12 @@ const StyledLineShort = styled.div`
         margin-left: 23px;
         border-top: 3px solid rgb(0, 50, 57);
     }
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 Plus & X - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE BIG PHONES
+    @media only screen and (min-width: 719px) and (max-width: 824px)
+    and (min-height: 375px) and (max-height: 540px) {
+        border-top: 4px solid rgb(0, 50, 57);
+        margin-left: 24px;
+    }
 `;
 const StyledPleaseScroll = styled.h3`
     margin-left: 19px;
@@ -164,5 +196,12 @@ const StyledPleaseScroll = styled.h3`
     and (min-height: 320px) and (max-height: 375px) {
         font-size: 17px;
         margin-left: 22px;
+    }
+
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 Plus & X - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE BIG PHONES
+    @media only screen and (min-width: 719px) and (max-width: 824px)
+    and (min-height: 375px) and (max-height: 540px) {
+        font-size: 22px;
+        margin-left: 23px;
     }
 `;
