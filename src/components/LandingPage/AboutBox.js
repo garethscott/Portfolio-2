@@ -38,11 +38,6 @@ const StyledAboutImg = styled.div`
     flex-direction: column;
     background-attachment: fixed;
 
-    // LANDSCAPE MOBILE SCREENS - MOTOG4 & GALAXYS5 - IPHONE,6,7,8 & X - LANDSCAPE
-    @media only screen and (min-width: 568px) and (max-width: 667px)
-    and (min-height: 320px) and (max-height: 375px) {
-        flex-direction: row;
-    }
 `;
 const StyledAboutContent = styled.div`
     width: 90%;
@@ -53,6 +48,17 @@ const StyledAboutContent = styled.div`
     @media only screen and (min-width: 374px) and (max-width: 541px)
     and (min-height: 665px) and (max-height: 824px) {
         height: 595px;
+    }
+
+    // LANDSCAPE MOBILE SCREENS - MOTOG4 & GALAXYS5 - IPHONE,6,7,8 - LANDSCAPE
+    @media only screen and (min-width: 568px) and (max-width: 667px)
+    and (min-height: 320px) and (max-height: 375px) {
+        //  background: red;
+         width: 90%;
+         height: 80%;
+         display: flex;
+        margin-left: 20px;
+
     }
 `;
 const StyledTextFade = styled.div`
@@ -72,6 +78,15 @@ const StyledTextFade = styled.div`
     and (min-height: 665px) and (max-height: 824px) {
         bottom: 68px;
         left: 18px;
+    }
+
+    // LANDSCAPE MOBILE SCREENS - MOTOG4 & GALAXYS5 - IPHONE,6,7,8 - LANDSCAPE
+    @media only screen and (min-width: 568px) and (max-width: 667px)
+    and (min-height: 320px) and (max-height: 375px) {
+       width: 55%;
+       height: 100px;
+       bottom: 0%;
+       left: 215px;
     }
 `;
 const StyledLineBelow = styled.div`
@@ -93,6 +108,11 @@ const StyledLineBelow = styled.div`
     and (min-height: 665px) and (max-height: 824px) {
         border-top: 3px solid rgb(0, 50, 57);
         bottom: 51px;
+    }
+    // LANDSCAPE MOBILE SCREENS - MOTOG4 & GALAXYS5 - IPHONE,6,7,8 & X - LANDSCAPE
+    @media only screen and (min-width: 568px) and (max-width: 667px)
+    and (min-height: 320px) and (max-height: 375px) {
+       display: none;
     }
 `;
 const StyledProjectsLink = styled(Link)`
@@ -119,6 +139,17 @@ const StyledProjectsLink = styled(Link)`
         bottom: 48px;
         font-size: 26px;
         width: 300px;
+    }
+
+    // LANDSCAPE MOBILE SCREENS - MOTOG4 & GALAXYS5 - IPHONE,6,7,8 & X - LANDSCAPE
+    @media only screen and (min-width: 568px) and (max-width: 667px)
+    and (min-height: 320px) and (max-height: 375px) {
+        position: absolute;
+        left: 17px;
+        top: 147px;
+        // background: yellow;
+        width: 170px;
+        text-align: left;
     }
 `;
 const StyledMove = styled.div`

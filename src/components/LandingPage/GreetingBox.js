@@ -101,7 +101,7 @@ const StyledFullStop = styled.div`
         left: 255px;
         bottom: 102px;
     }
-    // LANDSCAPE MOBILE SCREENS - MOTOG4 & GALAXYS5 - IPHONE,6,7,8 & X - LANDSCAPE
+    // LANDSCAPE - MOBILE SCREENS - MOTOG4 & GALAXYS5 - IPHONE,6,7,8 - LANDSCAPE
     @media only screen and (min-width: 568px) and (max-width: 667px)
     and (min-height: 320px) and (max-height: 375px) {
         left: 242px;
@@ -158,6 +158,7 @@ const StyledPleaseScroll = styled.h3`
     and (min-height: 665px) and (max-height: 824px) {
         font-size: 17px;
     }
+    
     // LANDSCAPE MOBILE SCREENS - MOTOG4 & GALAXYS5 - IPHONE,6,7,8 & X - LANDSCAPE
     @media only screen and (min-width: 568px) and (max-width: 667px)
     and (min-height: 320px) and (max-height: 375px) {

@@ -44,12 +44,24 @@ const StyledOverflow = styled.div`
     margin-left: 20px;
     position: relative;
     overflow-y: scroll;
+    
 
     // PORTRAIT MOBILE SCREENS - IPHONE,6,7,8 & PLUS & X - PIXEL 2 & XL - SURFACE DUO
     @media only screen and (min-width: 374px) and (max-width: 541px)
     and (min-height: 665px) and (max-height: 824px) {
         height: 330px;
       
+    }
+
+    // LANDSCAPE MOBILE SCREENS - MOTOG4 & GALAXYS5 - IPHONE,6,7,8 - LANDSCAPE
+    @media only screen and (min-width: 568px) and (max-width: 667px)
+    and (min-height: 320px) and (max-height: 375px) {
+       height: 97%;
+       width: 60%;
+       margin-left: 200px;
+       margin-top: 0px;
+       position: absolute;
+       left: 20px;
     }
 `;
 const StyledAboutCopy = styled.p`
@@ -76,6 +88,14 @@ const StyledAboutCopy = styled.p`
     @media only screen and (min-width: 509px) and (max-width: 720px)
     and (min-height: 719px) and (max-height: 721px) {
         width: 330px;
+    }
+
+    // LANDSCAPE MOBILE SCREENS - MOTOG4 & GALAXYS5 - IPHONE,6,7,8 & X - LANDSCAPE
+    @media only screen and (min-width: 568px) and (max-width: 667px)
+    and (min-height: 320px) and (max-height: 375px) {
+        
+        font-size: 13px;
+        line-height: 1.4em;
     }
  `;
 const StyledBottomSpacer = styled.div`

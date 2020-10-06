@@ -25,6 +25,16 @@ const StyledAboutHeadingBox = styled.div`
     and (min-height: 665px) and (max-height: 824px) {
         margin-bottom: 40px;
     }
+
+    // LANDSCAPE MOBILE SCREENS - MOTOG4 & GALAXYS5 - IPHONE,6,7,8 & X - LANDSCAPE
+    @media only screen and (min-width: 568px) and (max-width: 667px)
+    and (min-height: 320px) and (max-height: 375px) {
+        // background: lightblue;
+        width: 180px;
+        height: 140px;
+        margin-top: 0px;
+        margin-left: 20px;
+    }
 `;
 const StyledAboutHeading = styled.h1`
     color: rgb(0, 50, 57);
@@ -51,6 +61,11 @@ const StyledAboutHeading = styled.h1`
         line-height: 0.99em;
         margin-top: -20px;
     }
+    // LANDSCAPE MOBILE SCREENS - MOTOG4 & GALAXYS5 - IPHONE,6,7,8 & X - LANDSCAPE
+    @media only screen and (min-width: 568px) and (max-width: 667px)
+    and (min-height: 320px) and (max-height: 375px) {
+        margin: 0;
+    }
 `;
 const StyledFullStop = styled.div`
     height: 9px;
@@ -76,6 +91,13 @@ const StyledFullStop = styled.div`
         left: 178px;
         bottom: 27px;
     }
+
+    // LANDSCAPE MOBILE SCREENS - MOTOG4 & GALAXYS5 - IPHONE,6,7,8 & X - LANDSCAPE
+    @media only screen and (min-width: 568px) and (max-width: 667px)
+    and (min-height: 320px) and (max-height: 375px) {
+        left: 129px;
+        bottom: 28px;
+    }
 `;
 const StyledLineShort = styled.div`
     width: 20px;
@@ -90,10 +112,21 @@ const StyledLineShort = styled.div`
         border-top: 3px solid rgb(0, 50, 57);
     }
     
-    // PORTRAIT MOBILE SCREENS - IPHONE,6,7,8 & PLUS & X - PIXEL 2 & XL - SURFACE DUO
+    // PORTRAIT MOBILE SCREENS - IPHONE,6,7,8 & PLUS & X - PIXEL 2 & XL - SURFACE DUO - PORTRAIT
     @media only screen and (min-width: 374px) and (max-width: 541px)
     and (min-height: 665px) and (max-height: 824px) {
         margin-top: 30px;
         border-top: 3px solid rgb(0, 50, 57);
+    }
+    // LANDSCAPE MOBILE SCREENS - MOTOG4 & GALAXYS5 - IPHONE,6,7,8 & X - LANDSCAPE
+    @media only screen and (min-width: 568px) and (max-width: 667px)
+    and (min-height: 320px) and (max-height: 375px) {
+        // margin-left: 0px;
+        // margin-bottom: -200px;
+        border-top: 3px solid rgb(0, 50, 57);
+        position: absolute;
+        right: 160px;
+        top: 137px;
+
     }
 `;
