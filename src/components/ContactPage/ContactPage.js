@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import MainPinkLogo from '../ProjectsPage/Images/main-logo-pink.png';
-import ContactHeading from '../ProjectsPage/ContactHeading';
-import ContactDetails from '../ProjectsPage/ContactDetails';
-import SocialWhiteNav from '../ProjectsPage/SocialWhiteNav';
+import ContactPageHeading from './ContactPageHeading';
+import ContactPageDetails from './ContactPageDetails';
+import ContactPageNav from './ContactPageNav';
 
 const ContactPage = () => {
     return (
@@ -13,9 +13,12 @@ const ContactPage = () => {
                 <StyledLogo src={MainPinkLogo} />
             </Link>
             <StyledContentBox>
-                <ContactHeading />
-                <ContactDetails />
-                <SocialWhiteNav />
+                <Link to="/home">
+                    <StyledLogoTwo src={MainPinkLogo} />
+                </Link>
+                <ContactPageHeading />
+                <ContactPageDetails />
+                <ContactPageNav />
             </StyledContentBox>
         </StyledBackground>
     )
@@ -43,10 +46,29 @@ const StyledLogo = styled.img`
     and (min-height: 569px) and (max-height: 641px) {
        width: 33px;
     }
+
     // PORTRAIT MOBILE SCREENS - IPHONE,6,7,8 & PLUS & X - PIXEL 2 & XL - SURFACE DUO
     @media only screen and (min-width: 374px) and (max-width: 541px)
     and (min-height: 665px) and (max-height: 824px) {
        width: 33px;
+    }
+
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 PLUS - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE CONTACT BIG PHONES
+    @media only screen and (min-width: 567px) and (max-width: 824px)
+    and (min-height: 319px) and (max-height: 541px) {
+        display: none;
+    }
+`;
+const StyledLogoTwo = styled.img`
+    width: 33px;
+    display: none;
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 PLUS - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE CONTACT BIG PHONES
+    @media only screen and (min-width: 567px) and (max-width: 824px)
+    and (min-height: 319px) and (max-height: 541px) {
+        display: inline;
+        position: absolute;
+        top: 18px;
+        right: 0
     }
 `;
 const StyledContentBox = styled.div`
@@ -56,6 +78,7 @@ const StyledContentBox = styled.div`
     padding: 15px 0;
     border-top: 3px solid rgb(255, 255, 255);
     border-bottom: 3px solid rgb(255, 255, 255);
+    position: relative;
 
     // PORTRAIT MOBILE SCREENS - IPHONE,6,7,8 & PLUS & X - PIXEL 2 & XL - SURFACE DUO
     @media only screen and (min-width: 374px) and (max-width: 541px)

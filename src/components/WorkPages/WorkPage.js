@@ -78,6 +78,12 @@ const StyledBlackLogo = styled.img`
        width: 25px;
     }
 
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 PLUS - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE CONTACT BIG PHONES
+    @media only screen and (min-width: 719px) and (max-width: 824px)
+    and (min-height: 374px) and (max-height: 541px) {
+        width: 25px;
+    }
+
 `;
 const StyledX = styled.img`
     position: absolute;
@@ -102,6 +108,13 @@ const StyledX = styled.img`
     and (min-height: 319px) and (max-height: 376px) {
       top: 20px;
       left: 20px
+    }
+
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 PLUS - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE CONTACT BIG PHONES
+    @media only screen and (min-width: 719px) and (max-width: 824px)
+    and (min-height: 374px) and (max-height: 541px) {
+        top: 20px;
+        left: 20px
     }
     
 `;
@@ -157,6 +170,16 @@ const StyledContentBox = styled.div`
     @media only screen and (min-width: 567px) and (max-width: 668px)
     and (min-height: 319px) and (max-height: 376px) {
     //    background: lightblue;
+       display: flex;
+       flex-direction: row-reverse;
+       height: 68%;
+       margin-top: 36px;
+    }
+
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 PLUS - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE CONTACT BIG PHONES
+    @media only screen and (min-width: 719px) and (max-width: 824px)
+    and (min-height: 374px) and (max-height: 541px) {
+        //    background: lightblue;
        display: flex;
        flex-direction: row-reverse;
        height: 68%;
@@ -225,6 +248,26 @@ const StyledImgFrame = styled.div`
         width: 60%;
         margin-right: 20px;
     }
+
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 PLUS - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE CONTACT BIG PHONES
+    @media only screen and (min-width: 719px) and (max-width: 824px)
+    and (min-height: 374px) and (max-height: 541px) {
+        height: 100%;
+        width: 60%;
+        margin-right: 20px;
+    }
+
+    // SUFACE DUO - LANDSCAPE - WORK IMAGE FRAME - LANDSCAPE
+    @media only screen and (min-width: 719px) and (max-width: 721px)
+    and (min-height: 539px) and (max-height: 541px) {
+        width: 70%;
+    }
+
+    // LANDSCAPE SMALL MOBILE SCREENS - IPHONE SE MOTO & GALAXY S5  - LANDSCAPE CONTACT BIG PHONES
+    @media only screen and (min-width: 567px) and (max-width: 641px)
+    and (min-height: 319px) and (max-height: 361px) {
+        width: 50%;
+    }
 `;
 const StyledWorkImg = styled.img`
     height: 85%;
@@ -233,6 +276,17 @@ const StyledWorkImg = styled.img`
     @media only screen and (min-width: 374px) and (max-width: 376px)
     and (min-height: 811px) and (max-height: 813px) {
         height: 70%;
+    }
+
+    // SUFACE DUO - LANDSCAPE - WORK IMAGE FRAME - LANDSCAPE
+    @media only screen and (min-width: 719px) and (max-width: 721px)
+    and (min-height: 539px) and (max-height: 541px) {
+        height: 70%;
+    }
+    // SUFACE DUO - LANDSCAPE - WORK IMAGE FRAME - LANDSCAPE
+    @media only screen and (min-width: 719px) and (max-width: 721px)
+    and (min-height: 539px) and (max-height: 541px) {
+        height: 80%;
     }
 `;
 const StyledCopyFrame = styled.div`
@@ -249,6 +303,18 @@ const StyledCopyFrame = styled.div`
        margin-top: -10px;
        width: 40%;
     }
+
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 PLUS - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE CONTACT BIG PHONES
+    @media only screen and (min-width: 719px) and (max-width: 824px)
+    and (min-height: 374px) and (max-height: 541px) {
+        margin-top: -10px;
+        width: 40%;
+    }
+    // LANDSCAPE SMALL MOBILE SCREENS - IPHONE SE MOTO & GALAXY S5  - LANDSCAPE CONTACT BIG PHONES
+    @media only screen and (min-width: 567px) and (max-width: 641px)
+    and (min-height: 319px) and (max-height: 361px) {
+        width: 50%;
+    }
     
 `;
 const StyledCopyBox = styled.div`
@@ -259,6 +325,12 @@ const StyledCopyBox = styled.div`
     flex-direction: column;
     align-items: flex-end;
     position: relative;
+
+    // LANDSCAPE SMALL MOBILE SCREENS - IPHONE SE MOTO & GALAXY S5  - LANDSCAPE CONTACT BIG PHONES
+    @media only screen and (min-width: 567px) and (max-width: 641px)
+    and (min-height: 319px) and (max-height: 361px) {
+        width: 90%;
+    }
 `;
 const StyledHeading = styled.h1`
     font-family: helvetica;
@@ -289,6 +361,13 @@ const StyledCopy = styled.p`
     @media only screen and (min-width: 539px) and (max-width: 541px)
     and (min-height: 719px) and (max-height: 721px) {
         max-width: 300px;
+    }
+
+    // LANDSCAPE SMALL MOBILE SCREENS - IPHONE SE MOTO & GALAXY S5  - LANDSCAPE CONTACT BIG PHONES
+    @media only screen and (min-width: 567px) and (max-width: 641px)
+    and (min-height: 319px) and (max-height: 361px) {
+        font-size: 12px;
+       line-height: 1.4em;
     }
 `;
 const StyledLineTop = styled.div`
