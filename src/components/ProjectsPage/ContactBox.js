@@ -9,15 +9,18 @@ import MainLogoPink from './Images/main-logo-pink.png';
 const ContactBox = () => {
     return (
         <StyledContactBox>
+            {/* <Link to="/home">
+                <StyledLogoPink src={MainLogoPink} />
+            </Link> */}
             <StyledContactContent>
                 <ContactHeading />
-                <ContactDetails />
-                <StyledLogosBox>
+                <StyledDetailsBox>
+                    <ContactDetails />
                     <SocialWhiteNav />
-                    <Link to="/home">
-                        <StyledLogoPink src={MainLogoPink} />
-                    </Link>
-                </StyledLogosBox>
+                </StyledDetailsBox>
+                <Link to="/home">
+                    <StyledLogoPink src={MainLogoPink} />
+                </Link>
             </StyledContactContent>
         </StyledContactBox>
     )
@@ -32,22 +35,65 @@ const StyledContactBox = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+
+    // LANDSCAPE SMALL MOBILE SCREENS - IPHONE,6,7,8 - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE CONTACT
+    @media only screen and (min-width: 567px) and (max-width: 668px)
+    and (min-height: 319px) and (max-height: 376px) {
+      height: 180px;
+    }
+
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 PLUS - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE CONTACT BIG PHONES
+    @media only screen and (min-width: 719px) and (max-width: 824px)
+    and (min-height: 374px) and (max-height: 541px) {
+        height: 180px;
+    }
 `;
 const StyledContactContent = styled.div`
     width: 86%;
     height: 283px;
     // background: lightblue;
-`;
-const StyledLogosBox = styled.div`
-    width: 100%;
-    height: 35px;
-    // background: yellow;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    margin-top: 8px;
+
+    // LANDSCAPE SMALL MOBILE SCREENS - IPHONE,6,7,8 - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE CONTACT
+    @media only screen and (min-width: 567px) and (max-width: 668px)
+    and (min-height: 319px) and (max-height: 376px) {
+      display: flex;
+      height: 100px;
+      justify-content: space-between;
+    }
+
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 PLUS - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE CONTACT BIG PHONES
+    @media only screen and (min-width: 719px) and (max-width: 824px)
+    and (min-height: 374px) and (max-height: 541px) {
+        display: flex;
+        height: 100px;
+        justify-content: space-between;
+    }
 `;
 const StyledLogoPink = styled.img`
     width: 30px;
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+
+    // LANDSCAPE SMALL MOBILE SCREENS - IPHONE,6,7,8 - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE CONTACT
+    @media only screen and (min-width: 567px) and (max-width: 668px)
+    and (min-height: 319px) and (max-height: 376px) {
+      width: 33px;
+         position: static;
+    }
+
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 PLUS - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE CONTACT BIG PHONES
+    @media only screen and (min-width: 719px) and (max-width: 824px)
+    and (min-height: 374px) and (max-height: 541px) {
+         width: 33px;
+         position: static;
+    }
 `;
+const StyledDetailsBox = styled.div`
+    width: 250px;
+    height: 95px;
+    // background: red;
+`;
+
 

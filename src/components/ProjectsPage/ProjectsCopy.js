@@ -31,7 +31,7 @@ const StyledProjectsCopyBox = styled.div`
     // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 Plus & X - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE PROJECTS
     @media only screen and (min-width: 567px) and (max-width: 824px)
     and (min-height: 319px) and (max-height: 541px) {
-      max-width: 500px;
+      max-width: 450px;
     }
 `;
 const StyledProjectsCopy = styled.p`
@@ -54,4 +54,5 @@ const StyledProjectsCopy = styled.p`
        font-size: 13px;
       line-height: 1.4em; 
    }
+   
 `;

@@ -65,11 +65,18 @@ const StyledBlackLogo = styled.img`
     and (min-height: 569px) and (max-height: 641px) {
        width: 33px;
     }
+
     // PORTRAIT MOBILE SCREENS - IPHONE,6,7,8 & PLUS & X - PIXEL 2 & XL - SURFACE DUO
    @media only screen and (min-width: 374px) and (max-width: 541px)
    and (min-height: 665px) and (max-height: 824px) {
        width: 33px;
    }
+
+   // LANDSCAPE SMALL MOBILE SCREENS - IPHONE,6,7,8 - MOTO - LANDSCAPE WORKPAGE
+    @media only screen and (min-width: 567px) and (max-width: 668px)
+    and (min-height: 319px) and (max-height: 376px) {
+       width: 25px;
+    }
 
 `;
 const StyledX = styled.img`
@@ -89,6 +96,14 @@ const StyledX = styled.img`
     and (min-height: 665px) and (max-height: 824px) {
         width: 23px;
     }
+
+    // LANDSCAPE SMALL MOBILE SCREENS - IPHONE,6,7,8 - MOTO - LANDSCAPE WORKPAGE
+    @media only screen and (min-width: 567px) and (max-width: 668px)
+    and (min-height: 319px) and (max-height: 376px) {
+      top: 20px;
+      left: 20px
+    }
+    
 `;
 const StyledContentBox = styled.div`
     width: 100%;
@@ -136,6 +151,16 @@ const StyledContentBox = styled.div`
     @media only screen and (min-width: 374px) and (max-width: 376px)
     and (min-height: 811px) and (max-height: 813px) {
         height: 645px;
+    }
+
+    // LANDSCAPE SMALL MOBILE SCREENS - IPHONE,6,7,8 - MOTO - LANDSCAPE WORKPAGE
+    @media only screen and (min-width: 567px) and (max-width: 668px)
+    and (min-height: 319px) and (max-height: 376px) {
+    //    background: lightblue;
+       display: flex;
+       flex-direction: row-reverse;
+       height: 68%;
+       margin-top: 36px;
     }
 `;
 const StyledImgFrame = styled.div`
@@ -192,6 +217,14 @@ const StyledImgFrame = styled.div`
     and (min-height: 719px) and (max-height: 721px) {
         height: 340px;
     }
+
+    // LANDSCAPE SMALL MOBILE SCREENS - IPHONE,6,7,8 - MOTO - LANDSCAPE WORKPAGE
+    @media only screen and (min-width: 567px) and (max-width: 668px)
+    and (min-height: 319px) and (max-height: 376px) {
+        height: 100%;
+        width: 60%;
+        margin-right: 20px;
+    }
 `;
 const StyledWorkImg = styled.img`
     height: 85%;
@@ -209,6 +242,14 @@ const StyledCopyFrame = styled.div`
     display: flex;
     justify-content: flex-end;
     margin-top: 10px;
+
+    // LANDSCAPE SMALL MOBILE SCREENS - IPHONE,6,7,8 - MOTO - LANDSCAPE WORKPAGE
+    @media only screen and (min-width: 567px) and (max-width: 668px)
+    and (min-height: 319px) and (max-height: 376px) {
+       margin-top: -10px;
+       width: 40%;
+    }
+    
 `;
 const StyledCopyBox = styled.div`
     width: 79%;

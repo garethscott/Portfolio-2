@@ -78,6 +78,7 @@ const StyledProjectsHeading = styled.h1`
         line-height: 0.90em;
         margin-top: 0px;
     }
+
 `;
 const StyledFullStop = styled.div`
    height: 9px;
@@ -126,11 +127,11 @@ const StyledTopLine = styled.div`
    // PORTRAIT MOBILE SCREENS - IPHONE,6,7,8 & PLUS & X - PIXEL 2 & XL - SURFACE DUO
     @media only screen and (min-width: 374px) and (max-width: 541px)
     and (min-height: 665px) and (max-height: 824px) {
-        top: 170px;
         border-top: 3px solid rgb(0, 50, 57);
+        top: 170px;
     }
 
-    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 Plus & X - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE PROJECTS
+   // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 Plus & X - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE PROJECTS
     @media only screen and (min-width: 567px) and (max-width: 824px)
     and (min-height: 319px) and (max-height: 541px) {
       top: 146px;

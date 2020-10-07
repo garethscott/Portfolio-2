@@ -47,9 +47,56 @@ const StyledProjectBox = styled(Link)`
         width: 92%;
     }
     
-    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 Plus & X - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE PROJECTS
-    @media only screen and (min-width: 567px) and (max-width: 824px)
-    and (min-height: 319px) and (max-height: 541px) {
+    
+    // LANDSCAPE PROJECT PICTURES
+
+    // LANDSCAPE BIG MOBILE SCREENS - GALAXY S5 & MOTO - LANDSCAPE PROJECTS
+    @media only screen and (min-width: 639px) and (max-width: 641px)
+    and (min-height: 359px) and (max-height: 361px) {
+       margin-top: 0px; 
+       margin-left: 20px;
+       margin-bottom: 0px;
+       width: 288px;
+    //    background: red;
+       height: 200px;
+    }
+
+    // LANDSCAPE BIG MOBILE SCREENS - PIXEL 2 - LANDSCAPE PROJECTS
+    @media only screen and (min-width: 730px) and (max-width: 732px)
+    and (min-height: 410px) and (max-height: 412px) {
+       margin-top: 0px; 
+       margin-left: 20px;
+       margin-bottom: 0px;
+       width: 335px;
+    //    background: red;
+       height: 200px;
+    }
+
+    // LANDSCAPE BIG MOBILE SCREENS - PIXEL XL - LANDSCAPE PROJECTS
+    @media only screen and (min-width: 822px) and (max-width: 824px)
+    and (min-height: 410px) and (max-height: 412px) {
+       margin-top: 0px; 
+       margin-left: 20px;
+       margin-bottom: 0px;
+       width: 247px;
+    //    background: red;
+       height: 200px;
+    }
+
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE 5/SE - LANDSCAPE PROJECTS
+    @media only screen and (min-width: 567px) and (max-width: 569px)
+    and (min-height: 319px) and (max-height: 321px) {
+       margin-top: 0px; 
+       margin-left: 23px;
+       margin-bottom: 0px;
+       width: 247px;
+    //    background: red;
+       height: 200px;
+    }
+    
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 - LANDSCAPE PROJECTS
+    @media only screen and (min-width: 664px) and (max-width: 668px)
+    and (min-height: 374px) and (max-height: 376px) {
        margin-top: 0px; 
        margin-left: 23px;
        margin-bottom: 0px;
@@ -58,16 +105,35 @@ const StyledProjectBox = styled(Link)`
        height: 264px;
     }
 
-    // // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 Plus & X - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE PROJECTS
-    // @media only screen and (min-width: 567px) and (max-width: 824px)
-    // and (min-height: 319px) and (max-height: 541px) {
-    //    margin-top: 0px; 
-    //    margin-left: 23px;
-    //    margin-bottom: 0px;
-    //    width: 300px;
-    // //    background: red;
-    //    height: 264px;
-    // }
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 PLUS - LANDSCAPE PROJECTS
+    @media only screen and (min-width: 735px) and (max-width: 737px)
+    and (min-height: 413px) and (max-height: 415px) {
+       margin-top: 0px; 
+       margin-left: 23px;
+       margin-bottom: 0px;
+       width: 333px;
+       height: 264px;
+    }
+
+    // LANDSCAPE BIG MOBILE SCREENS - IPHONE X - LANDSCAPE PROJECTS
+    @media only screen and (min-width: 811px) and (max-width: 813px)
+    and (min-height: 374px) and (max-height: 376px) {
+       margin-top: 0px; 
+       margin-left: 23px;
+       margin-bottom: 0px;
+       width: 241px;
+       height: 220px;
+    }
+
+    // LANDSCAPE BIG MOBILE SCREENS - SURFACE DUO - LANDSCAPE PROJECTS
+    @media only screen and (min-width: 719px) and (max-width: 721px)
+    and (min-height: 539px) and (max-height: 541px) {
+       margin-top: 0px; 
+       margin-left: 23px;
+       margin-bottom: 0px;
+       width: 210px;
+       height: 190px;
+    }
 `;
 const StyledImg = styled.img`
     width: 100%;
