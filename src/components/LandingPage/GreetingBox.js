@@ -1,16 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
+import ArrowLogo from './images/arrow.png';
 
 const GreetingBox = () => {
     return (
         <StyledGreetImg>
             <StyledGreetCopyBox>
-                {/* <StyledGreeting>Hello, I'm <br />Gareth Scott <br />and I'm a<br />junior dev</StyledGreeting> */}
-                {/* <StyledGreeting>Hello, I'm Gareth Scott and I'm a junior dev</StyledGreeting> */}
                 <StyledGreeting>Hello, I'm Gareth and I'm a Web Developer</StyledGreeting>
                 <StyledFullStop />
                 <StyledLineShort />
                 <StyledPleaseScroll>Please Scroll</StyledPleaseScroll>
+                <StyledPleaseScrollTwo>Welcome to my online porfolio, please <StyledScroll>Scroll</StyledScroll></StyledPleaseScrollTwo>
+                <StyledArrow src={ArrowLogo} />
             </StyledGreetCopyBox>
         </StyledGreetImg >
     )
@@ -53,6 +54,16 @@ const StyledGreetCopyBox = styled.div`
         margin: 45px;
         // background: red;
     }
+
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        width: 60%;
+        height: 400px;
+        // background: lightblue;
+        margin-left: 20%;
+        margin-bottom: 9%;
+    }
 `;
 const StyledGreeting = styled.h1`
     color: rgb(0, 50, 57);
@@ -92,6 +103,15 @@ const StyledGreeting = styled.h1`
         font-size: 55px;
         margin-bottom: 25px;
         margin-top: 0px;
+    }
+
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        font-size: 75px;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 95px;
     }
 `;
 const StyledFullStop = styled.div`
@@ -133,6 +153,15 @@ const StyledFullStop = styled.div`
         left: 280px;
         bottom: 84px;
     }
+
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        width: 16px;
+        height: 16px;
+        left: 352px;
+        bottom: 193px;
+    }
 `;
 const StyledLineShort = styled.div`
     width: 20px;
@@ -172,6 +201,28 @@ const StyledLineShort = styled.div`
         border-top: 4px solid rgb(0, 50, 57);
         margin-left: 24px;
     }
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        border-top: 5px solid rgb(0, 50, 57);
+        width: 30px;
+        margin-left: 3px;
+        margin-bottom: 25px;
+    }
+`;
+const StyledArrow = styled.img`
+    width: 100px;
+    display: none;
+
+    // // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    // @media only screen and (min-width: 542px) and (max-width: 1025px)
+    // and (min-height: 722px) and (max-height: 790px) {
+    //     display: inline;
+    //     width: 80px;
+    //     transform: rotate(90deg);
+    //     position: absolute;
+    //     right: 550px;
+    // }
 `;
 const StyledPleaseScroll = styled.h3`
     margin-left: 19px;
@@ -204,4 +255,33 @@ const StyledPleaseScroll = styled.h3`
         font-size: 22px;
         margin-left: 23px;
     }
+
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        display: none;
+    }
 `;
+const StyledPleaseScrollTwo = styled.h3`
+    margin-left: 19px;
+    margin-top: 0px;
+    font-size: 12px;
+    color: rgb(0, 50, 57);
+    display: none;
+    
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        display: block;
+        font-size: 34px;
+        margin-left: 2px;
+        line-height: 1.13em;
+        // background: lightblue;
+        width: 300px;
+    }
+    `;
+const StyledScroll = styled.span`
+        // color: rgb(255, 255, 255);
+        color: rgb(0, 50, 57);
+        // font-style: italic;
+    `;

@@ -108,6 +108,14 @@ const StyeldSocialNavBox = styled.div`
         height: 150px;
     }
 
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        left: 30px;
+        bottom: 30px;
+        height: 160px;
+    }
+
 `;
 const StyledMessage = styled.img`
     width: 20px;

@@ -75,4 +75,12 @@ const StyledLogoBlack = styled.img`
     and (min-height: 375px) and (max-height: 540px) {
         width: 33px;
     }
+
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        width: 40px;
+        left: 30px;
+        top: 30px;
+    }
 `;
