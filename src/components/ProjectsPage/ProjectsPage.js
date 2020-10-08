@@ -294,9 +294,12 @@ const StyledProjectImageBox = styled.div`
       height: 630px;
     }
 
-    // // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
-    // @media only screen and (min-width: 542px) and (max-width: 1025px)
-    // and (min-height: 722px) and (max-height: 790px) {
-        
-    // }
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        flex-wrap: wrap;
+        flex-direction: unset;
+        height: unset;
+        justify-content: space-evenly;
+    }
 `;

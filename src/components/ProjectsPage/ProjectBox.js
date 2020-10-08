@@ -3,15 +3,15 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const ProjectBox = (props) => {
-    return (
-        <StyledProjectBox to={props.url}>
-            <StyledImg src={props.img} alt={props.alt} />
-            <StyledFig>
-                <StyledImgHeading>{props.heading}</StyledImgHeading>
-                <StyledSubHeading>{props.subHeading}</StyledSubHeading>
-            </StyledFig>
-        </StyledProjectBox>
-    )
+   return (
+      <StyledProjectBox to={props.url}>
+         <StyledImg src={props.img} alt={props.alt} />
+         <StyledFig>
+            <StyledImgHeading>{props.heading}</StyledImgHeading>
+            <StyledSubHeading>{props.subHeading}</StyledSubHeading>
+         </StyledFig>
+      </StyledProjectBox>
+   )
 }
 export default ProjectBox;
 
@@ -134,6 +134,13 @@ const StyledProjectBox = styled(Link)`
        width: 210px;
        height: 190px;
     }
+
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        width: 31%;
+        margin-bottom: 4%;
+    }
 `;
 const StyledImg = styled.img`
     width: 100%;
@@ -142,6 +149,12 @@ const StyledImg = styled.img`
     @media only screen and (min-width: 567px) and (max-width: 824px)
     and (min-height: 319px) and (max-height: 541px) {
        margin: 0px;
+    }
+
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        width: 100%;
     }
 `;
 const StyledFig = styled.div`
