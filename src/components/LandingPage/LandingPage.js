@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 // import ScrollToTopController from '../ScrollToTopController';
+import MainNav from './MainNav';
 import GreetingBox from './GreetingBox';
 import AboutBox from './AboutBox'
 import LogoBlack from './images/logo-border-black.png';
@@ -13,6 +14,7 @@ const LandingPage = (props) => {
     return (
         <div>
             {/* <ScrollToTopController /> */}
+            <MainNav />
             <Link to="/home">
                 <div onMouseEnter={props.onMouseEnter}
                     onMouseLeave={props.onMouseLeave}>
@@ -79,7 +81,7 @@ const StyledLogoBlack = styled.img`
     // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
     @media only screen and (min-width: 542px) and (max-width: 1025px)
     and (min-height: 722px) and (max-height: 790px) {
-        width: 40px;
+        width: 30px;
         left: 30px;
         top: 30px;
     }

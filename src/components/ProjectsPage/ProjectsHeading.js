@@ -43,6 +43,13 @@ const StyledProjectsHeadingBox = styled.div`
         margin-left: 20px;
         margin-top: 0px;
     }
+
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        width: 320px;
+        height: 200px;
+    }
     
 `;
 const StyledProjectsHeading = styled.h1`
@@ -79,6 +86,15 @@ const StyledProjectsHeading = styled.h1`
         margin-top: 0px;
     }
 
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        margin-left: 0px;
+        margin-top: 0px;
+        font-size: 55px;
+        line-height: 0.9em;
+        width: 400px;
+    }
 `;
 const StyledFullStop = styled.div`
    height: 9px;
@@ -109,6 +125,13 @@ const StyledFullStop = styled.div`
       top: 104px;
       left: 190px;
     }
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        position: absolute;
+        top: 133px;
+        left: 212px;
+    }
 `;
 const StyledTopLine = styled.div`
    width: 20px;
@@ -137,6 +160,16 @@ const StyledTopLine = styled.div`
       top: 146px;
       left: 21px;
       border-top: 3px solid rgb(0, 50, 57);
+    }
+
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        position: absolute;
+        left: 0px;
+        top: 190px;
+        border-top: 3px solid rgb(0, 50, 57);
+        width: 20px;
     }
 
 `;

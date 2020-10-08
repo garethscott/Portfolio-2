@@ -45,6 +45,14 @@ const StyledAboutHeadingBox = styled.div`
         margin-top: 0px;
         margin-left: 20px;
     }
+
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        margin-top: 0px;
+        // background: green;
+        height: 170
+    }
 `;
 const StyledAboutHeading = styled.h1`
     color: rgb(0, 50, 57);
@@ -81,6 +89,18 @@ const StyledAboutHeading = styled.h1`
     @media only screen and (min-width: 719px) and (max-width: 824px)
     and (min-height: 375px) and (max-height: 540px) {
         margin: 0;
+    }
+    
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        margin-left: 0px;
+        margin-top: 0px;
+        // background: lightblue;
+        font-size: 55px;
+        height: 150px;
+        margin-bottom: 100px;
+        line-height: 0.9em;
     }
 `;
 const StyledFullStop = styled.div`
@@ -120,6 +140,13 @@ const StyledFullStop = styled.div`
     and (min-height: 375px) and (max-height: 540px) {
         left: 129px;
         bottom: 28px;
+    }
+
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        left: 172px;
+        bottom: 25px;
     }
 `;
 const StyledLineShort = styled.div`
@@ -162,5 +189,15 @@ const StyledLineShort = styled.div`
         position: absolute;
         right: 160px;
         top: 137px;
+    }
+
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        position: absolute;
+        left: -18px;
+        top: 180px;
+        border-top: 3px solid rgb(0, 50, 57);
+        width: 20px;
     }
 `;

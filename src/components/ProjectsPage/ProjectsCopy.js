@@ -33,6 +33,14 @@ const StyledProjectsCopyBox = styled.div`
     and (min-height: 319px) and (max-height: 541px) {
       max-width: 450px;
     }
+
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        margin-top: 20px;
+        margin-left: 0px;
+        width: 500px;
+    }
 `;
 const StyledProjectsCopy = styled.p`
     width: 79%;
@@ -55,4 +63,11 @@ const StyledProjectsCopy = styled.p`
       line-height: 1.4em; 
    }
    
+   // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        font-size: 13px;
+        line-height: 1.4em;
+        text-align: justify;
+    }
 `;

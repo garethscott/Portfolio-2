@@ -74,6 +74,20 @@ const StyledOverflow = styled.div`
        position: absolute;
        left: 20px;
     }
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        margin-left: 0px;
+        margin-top: 50px;
+        overflow-y: unset;
+        // background: yellow;
+        height: 280px;
+        width: 650px;
+        column-count: 2;
+        colomn-width: 275px;
+        column-gap: 1px;
+        text-align: justify;
+    }
 `;
 const StyledTopPara = styled.p`
 width: 85%;
@@ -116,6 +130,12 @@ and (min-height: 320px) and (max-height: 375px) {
         font-size: 13px;
         line-height: 1.4em;
     }
+
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+       margin-top: 0px;
+    }
 `;
 const StyledAboutCopy = styled.p`
     width: 85%;
@@ -156,6 +176,8 @@ const StyledAboutCopy = styled.p`
         font-size: 13px;
         line-height: 1.4em;
     }
+
+    
  `;
 const StyledBottomSpacer = styled.div`
     width: 79%;

@@ -113,7 +113,7 @@ const StyeldSocialNavBox = styled.div`
     and (min-height: 722px) and (max-height: 790px) {
         left: 30px;
         bottom: 30px;
-        height: 160px;
+        height: 140px;
     }
 
 `;
@@ -131,6 +131,12 @@ const StyledMessage = styled.img`
     and (min-height: 665px) and (max-height: 824px) {
         width: 21px;
     }
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        width: 18px;
+        display: none;
+    }
 `;
 const StyledGit = styled.img`
     width: 23px;
@@ -145,6 +151,12 @@ const StyledGit = styled.img`
     @media only screen and (min-width: 374px) and (max-width: 541px)
     and (min-height: 665px) and (max-height: 824px) {
         width: 23px;
+    }
+    
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        width: 21px;
     }
 `;
 const StyledLinked = styled.img`
@@ -161,6 +173,11 @@ const StyledLinked = styled.img`
     and (min-height: 665px) and (max-height: 824px) {
         width: 21px;
     }
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        width: 18px;
+    }
 `;
 const StyledInsta = styled.img`
     width: 20px;
@@ -175,5 +192,10 @@ const StyledInsta = styled.img`
     @media only screen and (min-width: 374px) and (max-width: 541px)
     and (min-height: 665px) and (max-height: 824px) {
         width: 21px;
+    }
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        width: 18px;
     }
 `;

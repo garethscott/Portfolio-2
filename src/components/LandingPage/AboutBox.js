@@ -69,6 +69,15 @@ const StyledAboutContent = styled.div`
          display: flex;
         margin-left: 40px;
     }
+    
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        margin-left: 20%;
+        // background: red;
+        width: 60%;
+        height: 570px;
+    }
 `;
 const StyledTextFade = styled.div`
     position: absolute;    
@@ -106,6 +115,12 @@ const StyledTextFade = styled.div`
        bottom: 0%;
        left: 215px;
     }
+
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        display: none;
+    }
 `;
 const StyledLineBelow = styled.div`
     width: 20px;
@@ -137,6 +152,12 @@ const StyledLineBelow = styled.div`
     // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 Plus & X - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE BIG PHONES
     @media only screen and (min-width: 719px) and (max-width: 824px)
     and (min-height: 375px) and (max-height: 540px) {
+        display: none;
+    }
+
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
         display: none;
     }
 `;
@@ -187,6 +208,23 @@ const StyledProjectsLink = styled(Link)`
         width: 170px;
         text-align: left;
     }
+    
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        display: block;
+        font-size: 23px;
+        font-weight: 600;
+        margin-left: 0px;
+        line-height: 1.13em;
+        font-style: normal;
+        text-align: left:
+        background: green;
+        height: 30px;
+        width: 177px;
+        border-bottom: 3px solid rgb(0, 50, 57);
+    }
+    
 `;
 const StyledMove = styled.div`
    width: 200px;
@@ -200,4 +238,11 @@ const StyledMove = styled.div`
    and (min-height: 665px) and (max-height: 824px) {
        width: 220px;
    }
+   
+   // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        margin-left: 0px;
+        margin-top: -15px;
+    }
 `;

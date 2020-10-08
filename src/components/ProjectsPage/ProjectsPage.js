@@ -19,98 +19,98 @@ import WeatherImg from './Images/Project-Square-WeatherApp.jpg';
 import TravelImg from './Images/Project-Square-TravelApp.jpg';
 
 const ProjectsPage = (props) => {
-    return (
-        <>
-            <ScrollToTopContoller />
-            <StyledProjectsIntroBox>
-                <Link to="/home">
-                    <div
-                        onMouseEnter={props.projectsLogoEnter}
-                        onMouseLeave={props.projectsLogoLeave}
-                    >{props.projectsLogoHov ? (
-                        <StyledBlackLogo
-                            src={MainLogoBlack}
-                            alt="Gareth's logo"
-                        />) : (
-                            <StyledBlackLogo
-                                src={LogoMediumBlue}
-                                alt="Gareth's logo"
-                            />)}
-                    </div>
-                </Link>
-                <StyledProjectContent>
-                    <ProjectsHeading />
-                    <ProjectsCopy />
-                </StyledProjectContent>
-            </StyledProjectsIntroBox>
-            <StyledProjectImageBox>
-                <ProjectBox
-                    img={TravelImg}
-                    alt=""
-                    heading="Travel App"
-                    subHeading="MERN Stack"
-                    url="/travelapp"
-                />
-                <ProjectBox
-                    img={WeatherImg}
-                    alt=""
-                    heading="Weather App"
-                    subHeading="Node.js"
-                    url="/weatherapp"
-                />
-                <ProjectBox
-                    img={PokeImg}
-                    alt=""
-                    heading="Pokemon App"
-                    subHeading="React.js"
-                    url="/pokemonapp"
-                />
-                <ProjectBox
-                    img={TodoImg}
-                    alt=""
-                    heading="Todo App"
-                    subHeading="MERN Stack"
-                    url="/todoapp"
-                />
-                <ProjectBox
-                    img={AddBookImg}
-                    alt=""
-                    heading="Address Book"
-                    subHeading="React.js"
-                    url="/addressbook"
-                />
-                <ProjectBox
-                    img={CalcImg}
-                    alt=""
-                    heading="Calculator"
-                    subHeading="React.js"
-                    url="/calculator"
-                />
-                <ProjectBox
-                    img={DiceGameImg}
-                    alt=""
-                    heading="Dice Game"
-                    subHeading="Javascript"
-                    url="/dicegame"
-                />
-                <ProjectBox
-                    img={DrumKitImg}
-                    alt=""
-                    heading="Drum kit"
-                    subHeading="Javascript"
-                    url="/drumkit"
-                />
-                <ProjectBox
-                    img={KeyCodeImg}
-                    alt=""
-                    heading="Key Code"
-                    subHeading="Javascript"
-                    url="/keycode"
-                />
-            </StyledProjectImageBox>
-            <ContactBox />
-        </>
-    )
+  return (
+    <>
+      <ScrollToTopContoller />
+      <StyledProjectsIntroBox>
+        <Link to="/home">
+          <div
+            onMouseEnter={props.projectsLogoEnter}
+            onMouseLeave={props.projectsLogoLeave}
+          >{props.projectsLogoHov ? (
+            <StyledBlackLogo
+              src={MainLogoBlack}
+              alt="Gareth's logo"
+            />) : (
+              <StyledBlackLogo
+                src={LogoMediumBlue}
+                alt="Gareth's logo"
+              />)}
+          </div>
+        </Link>
+        <StyledProjectContent>
+          <ProjectsHeading />
+          <ProjectsCopy />
+        </StyledProjectContent>
+      </StyledProjectsIntroBox>
+      <StyledProjectImageBox>
+        <ProjectBox
+          img={TravelImg}
+          alt=""
+          heading="Travel App"
+          subHeading="MERN Stack"
+          url="/travelapp"
+        />
+        <ProjectBox
+          img={WeatherImg}
+          alt=""
+          heading="Weather App"
+          subHeading="Node.js"
+          url="/weatherapp"
+        />
+        <ProjectBox
+          img={PokeImg}
+          alt=""
+          heading="Pokemon App"
+          subHeading="React.js"
+          url="/pokemonapp"
+        />
+        <ProjectBox
+          img={TodoImg}
+          alt=""
+          heading="Todo App"
+          subHeading="MERN Stack"
+          url="/todoapp"
+        />
+        <ProjectBox
+          img={AddBookImg}
+          alt=""
+          heading="Address Book"
+          subHeading="React.js"
+          url="/addressbook"
+        />
+        <ProjectBox
+          img={CalcImg}
+          alt=""
+          heading="Calculator"
+          subHeading="React.js"
+          url="/calculator"
+        />
+        <ProjectBox
+          img={DiceGameImg}
+          alt=""
+          heading="Dice Game"
+          subHeading="Javascript"
+          url="/dicegame"
+        />
+        <ProjectBox
+          img={DrumKitImg}
+          alt=""
+          heading="Drum kit"
+          subHeading="Javascript"
+          url="/drumkit"
+        />
+        <ProjectBox
+          img={KeyCodeImg}
+          alt=""
+          heading="Key Code"
+          subHeading="Javascript"
+          url="/keycode"
+        />
+      </StyledProjectImageBox>
+      <ContactBox />
+    </>
+  )
 }
 
 export default ProjectsPage;
@@ -136,15 +136,25 @@ const StyledBlackLogo = styled.img`
     and (min-height: 569px) and (max-height: 641px) {
        width: 33px;
     }
+    
     // PORTRAIT MOBILE SCREENS - IPHONE,6,7,8 & PLUS & X - PIXEL 2 & XL - SURFACE DUO
     @media only screen and (min-width: 374px) and (max-width: 541px)
     and (min-height: 665px) and (max-height: 824px) {
         width: 33px; 
     }
+
     // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 Plus & X - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE PROJECTS
     @media only screen and (min-width: 567px) and (max-width: 824px)
     and (min-height: 319px) and (max-height: 541px) {
       width: 33px;
+    }
+
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        width: 30px;
+        left: 30px;
+        top: 30px;
     }
 `;
 const StyledProjectContent = styled.div`
@@ -158,6 +168,12 @@ const StyledProjectContent = styled.div`
     and (min-height: 319px) and (max-height: 541px) {
       height: 235px;
       margin-top: 0px;
+    }
+
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        margin-left: 20%;
     }
 `;
 const StyledProjectImageBox = styled.div`
@@ -277,4 +293,10 @@ const StyledProjectImageBox = styled.div`
     //   background: yellow;
       height: 630px;
     }
+
+    // // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    // @media only screen and (min-width: 542px) and (max-width: 1025px)
+    // and (min-height: 722px) and (max-height: 790px) {
+        
+    // }
 `;

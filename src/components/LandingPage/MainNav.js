@@ -4,9 +4,9 @@ import styled from 'styled-components';
 const MainNav = () => {
     return (
         <StyledContainer>
-            <StyledNavs>About</StyledNavs>
-            <StyledNavs>Projects</StyledNavs>
-            <StyledNavs>Contact</StyledNavs>
+            <StyledNavs>Get in touch</StyledNavs>
+            {/* <StyledNavs>Projects</StyledNavs>
+            <StyledNavs>Contact</StyledNavs> */}
         </StyledContainer>
     )
 }
@@ -14,20 +14,29 @@ const MainNav = () => {
 export default MainNav;
 
 const StyledContainer = styled.div`
-    width: 200px;
-    height: 20px;
+    display: none;
+
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        width: 140px;
+    height: 35px;
     margin: 0;
     // background: lightblue;
-    position: absolute;
+    border: 2px solid rgba(0, 50, 57, 80%);
+    border-radius: 5px;
+    position: fixed;
     right: 30px;
     top: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    }
 `;
 const StyledNavs = styled.h3`
     font-family: helvetica;
     margin: 0px;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 600;
-    color: rgba(0, 50, 57, 50%);
+    color: rgb(0, 50, 57);
 `;
