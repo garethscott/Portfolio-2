@@ -1,17 +1,19 @@
 import React from 'react';
 import styled from 'styled-components';
-import ArrowLogo from './images/arrow.png';
+import MainNav from './MainNav'
 
 const GreetingBox = () => {
     return (
         <StyledGreetImg>
+            <MainNav />
             <StyledGreetCopyBox>
                 <StyledGreeting>Hello, I'm Gareth and I'm a Web Developer</StyledGreeting>
                 <StyledFullStop />
                 <StyledLineShort />
                 <StyledPleaseScroll>Please Scroll</StyledPleaseScroll>
-                <StyledPleaseScrollTwo>Welcome to my online porfolio, please <StyledScroll>Scroll</StyledScroll></StyledPleaseScrollTwo>
-                <StyledArrow src={ArrowLogo} />
+                <StyledPleaseScrollTwo>Welcome to my online porfolio, please
+                    <StyledScroll> Scroll</StyledScroll>
+                </StyledPleaseScrollTwo>
             </StyledGreetCopyBox>
         </StyledGreetImg >
     )
@@ -204,25 +206,11 @@ const StyledLineShort = styled.div`
     // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
     @media only screen and (min-width: 542px) and (max-width: 1025px)
     and (min-height: 722px) and (max-height: 790px) {
-        border-top: 5px solid rgb(0, 50, 57);
-        width: 30px;
+        border-top: 7px solid rgb(0, 50, 57);
+        width: 35px;
         margin-left: 3px;
         margin-bottom: 25px;
     }
-`;
-const StyledArrow = styled.img`
-    width: 100px;
-    display: none;
-
-    // // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
-    // @media only screen and (min-width: 542px) and (max-width: 1025px)
-    // and (min-height: 722px) and (max-height: 790px) {
-    //     display: inline;
-    //     width: 80px;
-    //     transform: rotate(90deg);
-    //     position: absolute;
-    //     right: 550px;
-    // }
 `;
 const StyledPleaseScroll = styled.h3`
     margin-left: 19px;
@@ -273,8 +261,8 @@ const StyledPleaseScrollTwo = styled.h3`
     @media only screen and (min-width: 542px) and (max-width: 1025px)
     and (min-height: 722px) and (max-height: 790px) {
         display: block;
-        font-size: 34px;
-        margin-left: 2px;
+        font-size: 30px;
+        margin-left: 0px;
         line-height: 1.13em;
         // background: lightblue;
         width: 300px;
