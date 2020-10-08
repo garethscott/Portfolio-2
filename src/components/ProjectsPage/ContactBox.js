@@ -48,6 +48,12 @@ const StyledContactBox = styled.div`
     and (min-height: 374px) and (max-height: 541px) {
         height: 180px;
     }
+
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        height: 180px;
+    }
 `;
 const StyledContactContent = styled.div`
     width: 86%;
@@ -65,6 +71,14 @@ const StyledContactContent = styled.div`
     // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 PLUS - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE CONTACT BIG PHONES
     @media only screen and (min-width: 719px) and (max-width: 824px)
     and (min-height: 374px) and (max-height: 541px) {
+        display: flex;
+        height: 100px;
+        justify-content: space-between;
+    }
+
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
         display: flex;
         height: 100px;
         justify-content: space-between;
@@ -87,6 +101,13 @@ const StyledLogoPink = styled.img`
     @media only screen and (min-width: 719px) and (max-width: 824px)
     and (min-height: 374px) and (max-height: 541px) {
          width: 33px;
+         position: static;
+    }
+    
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        width: 33px;
          position: static;
     }
 `;

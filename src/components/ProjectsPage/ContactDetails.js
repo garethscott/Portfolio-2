@@ -31,6 +31,12 @@ const StyledContactDeetBox = styled.div`
     and (min-height: 374px) and (max-height: 541px) {
          height: 53px;
     }
+
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        height: 53px;
+    }
 `;
 const StyledPhone = styled.h3`
      font-family: helvetica;
@@ -48,6 +54,12 @@ const StyledPhone = styled.h3`
     @media only screen and (min-width: 719px) and (max-width: 824px)
     and (min-height: 374px) and (max-height: 541px) {
      margin-top: 0px;
+    }
+
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+       margin-top: 0px;
     }
 `;
 const StyledEmail = styled.h3`
@@ -73,5 +85,11 @@ const StyledLine = styled.div`
     @media only screen and (min-width: 719px) and (max-width: 824px)
     and (min-height: 374px) and (max-height: 541px) {
       display: none;
+    }
+
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+     display: none;
     }
 `;
