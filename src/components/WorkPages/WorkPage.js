@@ -91,6 +91,14 @@ const StyledBlackLogo = styled.img`
         right: 30px;
         width: 30px;
     }
+
+    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 769px) and (max-height: 1026px) {
+        top: 30px;
+        right: 30px;
+        width: 30px;
+    }
     
 
 `;
@@ -129,7 +137,13 @@ const StyledX = styled.img`
     // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
     @media only screen and (min-width: 542px) and (max-width: 1025px)
     and (min-height: 722px) and (max-height: 790px) {
-        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+
+    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 769px) and (max-height: 1026px) {
         top: 30px;
         left: 30px;
     }
@@ -211,6 +225,15 @@ const StyledContentBox = styled.div`
         flex-direction: row-reverse;
         height: 60%;
     }
+    
+    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 769px) and (max-height: 1026px) {
+        // background: lightblue;
+        height: 65%;
+        width: 92%;
+    }
+    
 `;
 const StyledImgFrame = styled.div`
     width: 100%;
@@ -307,6 +330,13 @@ const StyledImgFrame = styled.div`
         width: 60%;
         margin-right: 30px;
     }
+
+    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 769px) and (max-height: 1026px) {
+        height: 65%;
+    }
+    
 `;
 const StyledWorkImg = styled.img`
     height: 85%;
@@ -362,6 +392,7 @@ const StyledCopyFrame = styled.div`
         margin-top: 0px;
     }
     
+    
 `;
 const StyledCopyBox = styled.div`
     width: 79%;
@@ -383,6 +414,8 @@ const StyledCopyBox = styled.div`
     and (min-height: 722px) and (max-height: 790px) {
         margin-top: 0px;
     }
+
+    
     
 `;
 const StyledHeading = styled.h1`
@@ -398,6 +431,12 @@ const StyledHeading = styled.h1`
     @media only screen and (min-width: 542px) and (max-width: 1025px)
     and (min-height: 722px) and (max-height: 790px) {
         margin-top: 0px;
+    }
+    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 769px) and (max-height: 1026px) {
+        margin-right: 0px;
+        font-size: 23px;
     }
 `;
 const StyledCopy = styled.p`
@@ -429,7 +468,14 @@ const StyledCopy = styled.p`
        line-height: 1.4em;
     }
 
-    
+    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 769px) and (max-height: 1026px) {
+        margin-right: 0px;
+        max-width: 300px;
+        font-size: 13px;
+       line-height: 1.4em;
+    }
 `;
 const StyledLineTop = styled.div`
     width: 15px;
@@ -438,6 +484,13 @@ const StyledLineTop = styled.div`
     position: absolute;
     right: 20px;
     top: 36px;
+
+    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 769px) and (max-height: 1026px) {
+        right: 0px;
+        top: 46px;
+    }
 `;
 const StyledLineBot = styled.div`
     width: 15px;
@@ -445,6 +498,12 @@ const StyledLineBot = styled.div`
     border-bottom: 2px solid rgb(0, 50, 57);
     margin-top: 1px;
     margin-right: 20px;
+
+    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 769px) and (max-height: 1026px) {
+        margin-right: 0px;
+    }
 `;
 const StyledSeeLink = styled.a`
     font-family: helvetica;
@@ -458,6 +517,14 @@ const StyledSeeLink = styled.a`
     text-align: right;
     margin-right: 20px;
     margin-top: 12px;
+
+    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 769px) and (max-height: 1026px) {
+        margin-right: 0px;
+        font-size: 23px;
+        width: 113px;
+    }
 `;
 const StyledArrowBox = styled.div`
     width: 100%;

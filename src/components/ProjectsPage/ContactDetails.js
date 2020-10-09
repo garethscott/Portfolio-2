@@ -37,6 +37,12 @@ const StyledContactDeetBox = styled.div`
     and (min-height: 722px) and (max-height: 790px) {
         height: 53px;
     }
+
+    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 1026px) {
+     height: 53px;
+    }
 `;
 const StyledPhone = styled.h3`
      font-family: helvetica;
@@ -59,6 +65,12 @@ const StyledPhone = styled.h3`
     // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
     @media only screen and (min-width: 542px) and (max-width: 1025px)
     and (min-height: 722px) and (max-height: 790px) {
+       margin-top: 0px;
+    }
+
+    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 1026px) {
        margin-top: 0px;
     }
 `;
@@ -90,6 +102,12 @@ const StyledLine = styled.div`
     // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
     @media only screen and (min-width: 542px) and (max-width: 1025px)
     and (min-height: 722px) and (max-height: 790px) {
+     display: none;
+    }
+
+    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 1026px) {
      display: none;
     }
 `;

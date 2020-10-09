@@ -152,6 +152,14 @@ const StyledProjectBox = styled(Link)`
       //   margin-bottom: 4%;
         height: 293px;
     }
+
+    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 769px) and (max-height: 1026px) {
+      width: 31%;
+      //   margin-bottom: 4%;
+        height: 230px;
+      }
 `;
 const StyledImg = styled.img`
     width: 100%;
@@ -166,6 +174,12 @@ const StyledImg = styled.img`
     @media only screen and (min-width: 542px) and (max-width: 1025px)
     and (min-height: 722px) and (max-height: 790px) {
         width: 100%;
+    }
+
+    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 1026px) {
+      width: 100%;
     }
 `;
 const StyledFig = styled.div`

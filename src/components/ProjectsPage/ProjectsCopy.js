@@ -41,6 +41,14 @@ const StyledProjectsCopyBox = styled.div`
         margin-left: 0px;
         width: 500px;
     }
+
+    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 1026px) {
+        margin-top: 20px;
+        margin-left: 0px;
+        width: 500px;
+    }
 `;
 const StyledProjectsCopy = styled.p`
     width: 79%;
@@ -66,6 +74,14 @@ const StyledProjectsCopy = styled.p`
    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
     @media only screen and (min-width: 542px) and (max-width: 1025px)
     and (min-height: 722px) and (max-height: 790px) {
+        font-size: 13px;
+        line-height: 1.4em;
+        text-align: justify;
+    }
+
+    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 1026px) {
         font-size: 13px;
         line-height: 1.4em;
         text-align: justify;

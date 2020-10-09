@@ -130,6 +130,12 @@ const StyledProjectsIntroBox = styled.div`
     and (min-height: 722px) and (max-height: 790px) {
        height: 75vh;
     }
+
+    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 769px) and (max-height: 1026px) {
+        height: 70vh;
+    }
 `;
 const StyledBlackLogo = styled.img`
     width: 30px;
@@ -162,6 +168,14 @@ const StyledBlackLogo = styled.img`
         left: 30px;
         top: 30px;
     }
+
+    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 1026px) {
+        width: 30px;
+        left: 30px;
+        top: 30px;
+    }
 `;
 const StyledProjectContent = styled.div`
     width: 83%;
@@ -180,6 +194,12 @@ const StyledProjectContent = styled.div`
     @media only screen and (min-width: 542px) and (max-width: 1025px)
     and (min-height: 722px) and (max-height: 790px) {
         margin-left: 15%;
+    }
+
+    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 1026px) {
+      margin-left: 15%;
     }
 `;
 const StyledProjectImageBox = styled.div`
@@ -315,6 +335,15 @@ const StyledProjectImageBox = styled.div`
         flex-direction: unset;
         height: unset;
         justify-content: space-evenly;
+    }
+
+    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 1026px) {
+      flex-wrap: wrap;
+      flex-direction: unset;
+      height: unset;
+      justify-content: space-evenly;
     }
 `;
 
