@@ -188,7 +188,7 @@ const StyledProjectImageBox = styled.div`
     // PORTRAIT MOBILE SCREENS - MOTOG4 & GALAXYS5 - PORTRAIT
     @media only screen and (min-width: 360px) and (max-width: 361px)
     and (min-height: 569px) and (max-height: 641px) {
-        height: 2612px;
+        // height: 2612px;
     }
 
     
@@ -208,13 +208,13 @@ const StyledProjectImageBox = styled.div`
     // PORTRAIT MOBILE SCREENS - IPHONE,6,7,8 PLUS - PIXEL 2 & XL - SURFACE DUO - WIDER WIDTH
     @media only screen and (min-width: 410px) and (max-width: 541px)
     and (min-height: 730px) and (max-height: 824px) {
-        height: 2975px;
+        // height: 2975px;
     }
 
     // PORTRAIT MOBILE SCREENS - SURFACE DUO - WIDER WIDTH
     @media only screen and (min-width: 509px) and (max-width: 720px)
     and (min-height: 719px) and (max-height: 721px) {
-        height: 3880px;
+        // height: 3880px;
     }
 
     

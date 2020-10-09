@@ -18,14 +18,15 @@ export default ProjectBox;
 const StyledProjectBox = styled(Link)`
     width: 89%;
    //  height: 250px;
-    // background: lightblue;
+    background: red;
     text-decoration: none;
    //  margin-bottom: 14px;
 
     // PORTRAIT MOBILE SCREENS - MOTOG4 & GALAXYS5 - PORTRAIT
    @media only screen and (min-width: 360px) and (max-width: 361px)
    and (min-height: 569px) and (max-height: 641px) {
-      margin-bottom: 40px;
+      // margin-bottom: 40px;
+      background: red;
    }
 
    
@@ -45,13 +46,14 @@ const StyledProjectBox = styled(Link)`
     // PORTRAIT MOBILE SCREENS - IPHONE,6,7,8 PLUS - PIXEL 2 & XL - SURFACE DUO - WIDER WIDTH
     @media only screen and (min-width: 410px) and (max-width: 541px)
     and (min-height: 730px) and (max-height: 824px) {
-        margin-bottom: 80px;
+      //   margin-bottom: 80px;
+      background: red;
     }
 
     // PORTRAIT MOBILE SCREENS - SURFACE DUO - WIDER WIDTH
     @media only screen and (min-width: 509px) and (max-width: 720px)
     and (min-height: 719px) and (max-height: 721px) {
-        margin-bottom: 184px;
+      //   margin-bottom: 184px;
         width: 92%;
     }
     
