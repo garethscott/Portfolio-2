@@ -228,7 +228,7 @@ const StyledProjectImageBox = styled.div`
       flex-direction: unset;
       align-items: unset;
       flex-wrap: wrap;
-      background: yellow;
+      // background: yellow;
       // height: 1360px;
     }
 

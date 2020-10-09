@@ -67,7 +67,7 @@ const StyledProjectBox = styled(Link)`
        margin-left: 20px;
        margin-bottom: 0px;
        width: 288px;
-       background: red;
+      //  background: red;
        height: 270px;
     }
 
@@ -149,7 +149,8 @@ const StyledProjectBox = styled(Link)`
     @media only screen and (min-width: 542px) and (max-width: 1025px)
     and (min-height: 722px) and (max-height: 790px) {
         width: 31%;
-        margin-bottom: 4%;
+      //   margin-bottom: 4%;
+        height: 293px;
     }
 `;
 const StyledImg = styled.img`
