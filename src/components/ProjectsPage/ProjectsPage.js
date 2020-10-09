@@ -124,6 +124,12 @@ const StyledProjectsIntroBox = styled.div`
     display: flex;
     align-items: center;
     position: relative;
+
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+       height: 75vh;
+    }
 `;
 const StyledBlackLogo = styled.img`
     width: 30px;
@@ -173,7 +179,7 @@ const StyledProjectContent = styled.div`
     // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
     @media only screen and (min-width: 542px) and (max-width: 1025px)
     and (min-height: 722px) and (max-height: 790px) {
-        margin-left: 20%;
+        margin-left: 15%;
     }
 `;
 const StyledProjectImageBox = styled.div`

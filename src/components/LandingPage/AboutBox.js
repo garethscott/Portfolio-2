@@ -37,7 +37,7 @@ const StyledAboutImg = styled.div`
     justify-content: center;
     flex-direction: column;
     background-attachment: fixed;
-
+    
 `;
 const StyledAboutContent = styled.div`
     width: 90%;
@@ -74,6 +74,15 @@ const StyledAboutContent = styled.div`
     @media only screen and (min-width: 542px) and (max-width: 1025px)
     and (min-height: 722px) and (max-height: 790px) {
         margin-left: 20%;
+        // background: red;
+        width: 60%;
+        height: 570px;
+    }
+
+    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 769px) and (max-height: 1026px) {
+        margin-left: 10%;
         // background: red;
         width: 60%;
         height: 570px;
@@ -121,6 +130,12 @@ const StyledTextFade = styled.div`
     and (min-height: 722px) and (max-height: 790px) {
         display: none;
     }
+
+    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 1026px) {
+        display: none;
+    }
 `;
 const StyledLineBelow = styled.div`
     width: 20px;
@@ -158,6 +173,12 @@ const StyledLineBelow = styled.div`
     // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
     @media only screen and (min-width: 542px) and (max-width: 1025px)
     and (min-height: 722px) and (max-height: 790px) {
+        display: none;
+    }
+
+    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 1026px) {
         display: none;
     }
 `;
@@ -224,6 +245,22 @@ const StyledProjectsLink = styled(Link)`
         width: 177px;
         border-bottom: 3px solid rgb(0, 50, 57);
     }
+
+    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 1026px) {
+        display: block;
+        font-size: 23px;
+        font-weight: 600;
+        margin-left: 0px;
+        line-height: 1.13em;
+        font-style: normal;
+        text-align: left:
+        background: green;
+        height: 30px;
+        width: 177px;
+        border-bottom: 3px solid rgb(0, 50, 57);
+    }
     
 `;
 const StyledMove = styled.div`
@@ -242,6 +279,13 @@ const StyledMove = styled.div`
    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
     @media only screen and (min-width: 542px) and (max-width: 1025px)
     and (min-height: 722px) and (max-height: 790px) {
+        margin-left: 0px;
+        margin-top: -15px;
+    }
+
+    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 1026px) {
         margin-left: 0px;
         margin-top: -15px;
     }

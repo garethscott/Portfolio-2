@@ -58,10 +58,19 @@ const StyledLogo = styled.img`
     and (min-height: 319px) and (max-height: 541px) {
         display: none;
     }
+
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        // right: 30px;
+        // top: 30px;
+        display: none;
+    }
 `;
 const StyledLogoTwo = styled.img`
     width: 33px;
     display: none;
+   
     // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 PLUS - PIXEL 2 & PLUS - GALAXY DUO - LANDSCAPE CONTACT BIG PHONES
     @media only screen and (min-width: 567px) and (max-width: 824px)
     and (min-height: 319px) and (max-height: 541px) {
@@ -69,6 +78,14 @@ const StyledLogoTwo = styled.img`
         position: absolute;
         top: 18px;
         right: 0
+    }
+
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        display: inline;
+        position: absolute;
+        right: 0;
     }
 `;
 const StyledContentBox = styled.div`
@@ -90,5 +107,12 @@ const StyledContentBox = styled.div`
     @media only screen and (min-width: 539px) and (max-width: 541px)
     and (min-height: 719px) and (max-height: 721px) {
         width: 92%;
+    }
+
+    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 790px) {
+        margin-rigth: 30px;
+        width: 80%;
     }
 `;

@@ -32,6 +32,23 @@ const StyledContainer = styled.div`
     justify-content: center;
     align-items: center;
     }
+
+    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 1026px) {
+        width: 140px;
+        height: 35px;
+        margin: 0;
+        // background: lightblue;
+        border: 2px solid rgba(0, 50, 57, 80%);
+        border-radius: 5px;
+        position: fixed;
+        right: 30px;
+        top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 `;
 const StyledNavs = styled.h3`
     font-family: helvetica;

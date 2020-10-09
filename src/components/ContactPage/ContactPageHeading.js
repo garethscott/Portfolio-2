@@ -27,6 +27,19 @@ const StyledContactHeading = styled.h1`
     font-weight: 700;
     line-height: 0.97em;
     letter-spacing: -0.01em;
+
+    // // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
+    // @media only screen and (min-width: 542px) and (max-width: 1025px)
+    // and (min-height: 722px) and (max-height: 790px) {
+    //     margin-left: 0px;
+    //     margin-top: 0px;
+    //     background: lightblue;
+    //     font-size: 55px;
+    //     height: 150px;
+    //     margin-bottom: 100px;
+    //     line-height: 0.9em;
+    //     width: 300px;
+    // }
 `;
 const StyledFullStop = styled.div`
     height: 9px;

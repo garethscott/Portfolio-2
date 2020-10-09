@@ -88,6 +88,21 @@ const StyledOverflow = styled.div`
         column-gap: 1px;
         text-align: justify;
     }
+
+    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 1026px) {
+        margin-left: 0px;
+        margin-top: 50px;
+        overflow-y: unset;
+        // background: yellow;
+        height: 280px;
+        width: 650px;
+        column-count: 2;
+        colomn-width: 275px;
+        column-gap: 1px;
+        text-align: justify;
+    }
 `;
 const StyledTopPara = styled.p`
 width: 85%;
@@ -135,6 +150,12 @@ and (min-height: 320px) and (max-height: 375px) {
     @media only screen and (min-width: 542px) and (max-width: 1025px)
     and (min-height: 722px) and (max-height: 790px) {
        margin-top: 0px;
+    }
+
+    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 1026px) {
+        margin-top: 0px;
     }
 `;
 const StyledAboutCopy = styled.p`

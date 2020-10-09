@@ -85,4 +85,12 @@ const StyledLogoBlack = styled.img`
         left: 30px;
         top: 30px;
     }
+
+    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 1026px) {
+        width: 30px;
+        left: 30px;
+        top: 30px;
+    }
 `;

@@ -116,6 +116,14 @@ const StyeldSocialNavBox = styled.div`
         height: 140px;
     }
 
+    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 1026px) {
+        left: 30px;
+        bottom: 30px;
+        height: 140px;
+    }
+
 `;
 const StyledMessage = styled.img`
     width: 20px;
@@ -134,6 +142,13 @@ const StyledMessage = styled.img`
     // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
     @media only screen and (min-width: 542px) and (max-width: 1025px)
     and (min-height: 722px) and (max-height: 790px) {
+        width: 18px;
+        display: none;
+    }
+
+    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 1026px) {
         width: 18px;
         display: none;
     }
@@ -158,6 +173,12 @@ const StyledGit = styled.img`
     and (min-height: 722px) and (max-height: 790px) {
         width: 21px;
     }
+
+    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 1026px) {
+        width: 21px;
+    }
 `;
 const StyledLinked = styled.img`
     width: 20px;
@@ -178,6 +199,12 @@ const StyledLinked = styled.img`
     and (min-height: 722px) and (max-height: 790px) {
         width: 18px;
     }
+
+    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 1026px) {
+        width: 18px;
+    }
 `;
 const StyledInsta = styled.img`
     width: 20px;
@@ -193,9 +220,16 @@ const StyledInsta = styled.img`
     and (min-height: 665px) and (max-height: 824px) {
         width: 21px;
     }
+
     // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
     @media only screen and (min-width: 542px) and (max-width: 1025px)
     and (min-height: 722px) and (max-height: 790px) {
+        width: 18px;
+    }
+
+    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    @media only screen and (min-width: 542px) and (max-width: 1025px)
+    and (min-height: 722px) and (max-height: 1026px) {
         width: 18px;
     }
 `;
