@@ -17,8 +17,8 @@ export default ProjectBox;
 
 const StyledProjectBox = styled(Link)`
     width: 89%;
-   //  height: 250px;
-    background: red;
+   //  height: 270px;
+   //  background: red;
     text-decoration: none;
    //  margin-bottom: 14px;
 
@@ -67,8 +67,8 @@ const StyledProjectBox = styled(Link)`
        margin-left: 20px;
        margin-bottom: 0px;
        width: 288px;
-    //    background: red;
-       height: 200px;
+       background: red;
+       height: 270px;
     }
 
     // LANDSCAPE BIG MOBILE SCREENS - PIXEL 2 - LANDSCAPE PROJECTS
@@ -79,7 +79,7 @@ const StyledProjectBox = styled(Link)`
        margin-bottom: 0px;
        width: 335px;
     //    background: red;
-       height: 200px;
+       height: 307px;
     }
 
     // LANDSCAPE BIG MOBILE SCREENS - PIXEL XL - LANDSCAPE PROJECTS
@@ -90,7 +90,7 @@ const StyledProjectBox = styled(Link)`
        margin-bottom: 0px;
        width: 247px;
     //    background: red;
-       height: 200px;
+       height: 240px;
     }
 
     // LANDSCAPE BIG MOBILE SCREENS - IPHONE 5/SE - LANDSCAPE PROJECTS
@@ -112,7 +112,7 @@ const StyledProjectBox = styled(Link)`
        margin-bottom: 0px;
        width: 300px;
     //    background: red;
-       height: 264px;
+       height: 280px;
     }
 
     // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 PLUS - LANDSCAPE PROJECTS
@@ -120,9 +120,9 @@ const StyledProjectBox = styled(Link)`
     and (min-height: 413px) and (max-height: 415px) {
        margin-top: 0px; 
        margin-left: 23px;
-       margin-bottom: 0px;
+       margin-bottom: 20px;
        width: 333px;
-       height: 264px;
+       height: 285px;
     }
 
     // LANDSCAPE BIG MOBILE SCREENS - IPHONE X - LANDSCAPE PROJECTS
@@ -130,7 +130,7 @@ const StyledProjectBox = styled(Link)`
     and (min-height: 374px) and (max-height: 376px) {
        margin-top: 0px; 
        margin-left: 23px;
-       margin-bottom: 0px;
+       margin-bottom: 15px;
        width: 241px;
        height: 220px;
     }
@@ -142,7 +142,7 @@ const StyledProjectBox = styled(Link)`
        margin-left: 23px;
        margin-bottom: 0px;
        width: 210px;
-       height: 190px;
+       height: 212px;
     }
 
     // SURFACE DUO TO REGULAR IPAD - LANDSCAPE

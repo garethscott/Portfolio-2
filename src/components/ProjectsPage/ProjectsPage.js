@@ -228,8 +228,8 @@ const StyledProjectImageBox = styled.div`
       flex-direction: unset;
       align-items: unset;
       flex-wrap: wrap;
-    //   background: yellow;
-      height: 1360px;
+      background: yellow;
+      // height: 1360px;
     }
 
     // LANDSCAPE BIG MOBILE SCREENS - PIXEL 2 - LANDSCAPE PROJECTS
@@ -238,8 +238,8 @@ const StyledProjectImageBox = styled.div`
       flex-direction: unset;
       align-items: unset;
       flex-wrap: wrap;
-    //   background: yellow;
-      height: 1545px;
+      // background: yellow;
+      // height: 1545px;
     }
 
     // LANDSCAPE BIG MOBILE SCREENS - PIXEL XL - LANDSCAPE PROJECTS
@@ -248,8 +248,8 @@ const StyledProjectImageBox = styled.div`
       flex-direction: unset;
       align-items: unset;
       flex-wrap: wrap;
-    //   background: yellow;
-      height: 710px;
+      // background: yellow;
+      // height: 710px;
     }
 
     // LANDSCAPE BIG MOBILE SCREENS - IPHONE 5/SE - LANDSCAPE PROJECTS
@@ -258,7 +258,7 @@ const StyledProjectImageBox = styled.div`
       flex-direction: unset;
       align-items: unset;
       flex-wrap: wrap;
-    //   background: yellow;
+      // background: yellow;
       height: 1200px;
     }
 
@@ -269,7 +269,7 @@ const StyledProjectImageBox = styled.div`
       align-items: unset;
       flex-wrap: wrap;
     //   background: yellow;
-      height: 1400px;
+      // height: 1400px;
     }
 
     // LANDSCAPE BIG MOBILE SCREENS - IPHONE,6,7,8 PLUS - LANDSCAPE PROJECTS
@@ -279,7 +279,7 @@ const StyledProjectImageBox = styled.div`
       align-items: unset;
       flex-wrap: wrap;
     //   background: yellow;
-      height: 1545px;
+      // height: 1545px;
     }
 
     // LANDSCAPE BIG MOBILE SCREENS - IPHONE X - LANDSCAPE PROJECTS
@@ -289,7 +289,7 @@ const StyledProjectImageBox = styled.div`
       align-items: unset;
       flex-wrap: wrap;
     //   background: yellow;
-      height: 700px;
+      // height: 700px;
     }
 
     // LANDSCAPE BIG MOBILE SCREENS - SURFACE DUO - LANDSCAPE PROJECTS
@@ -299,7 +299,7 @@ const StyledProjectImageBox = styled.div`
       align-items: unset;
       flex-wrap: wrap;
     //   background: yellow;
-      height: 630px;
+      // height: 630px;
     }
 
     // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
