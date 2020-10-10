@@ -66,6 +66,23 @@ const StyledContainer = styled.div`
         justify-content: center;
         align-items: center;
     }
+
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
+        width: 155px;
+        height: 35px;
+        margin: 0;
+        // background: lightblue;
+        border: 2px solid rgba(0, 50, 57, 80%);
+        border-radius: 5px;
+        position: fixed;
+        right: 30px;
+        top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 `;
 const StyledNavs = styled.h3`
     font-family: helvetica;
@@ -77,6 +94,16 @@ const StyledNavs = styled.h3`
     // REGULAR IPAD TO IPAD PRO - LANDSCAPE
     @media only screen and (min-width: 1025px) and (max-width: 1366px)
     and (min-height: 769px) and (max-height: 1024px) {
+        font-family: helvetica;
+        margin: 0px;
+        font-size: 15px;
+        font-weight: 600;
+        color: rgb(0, 50, 57);
+    }
+
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
         font-family: helvetica;
         margin: 0px;
         font-size: 15px;

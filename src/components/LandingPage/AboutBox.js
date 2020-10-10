@@ -96,6 +96,15 @@ const StyledAboutContent = styled.div`
         width: 60%;
         height: 610px;
     }
+
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
+        margin-left: 10%;
+        // background: red;
+        width: 60%;
+        height: 610px;
+    }
 `;
 const StyledTextFade = styled.div`
     position: absolute;    
@@ -151,6 +160,12 @@ const StyledTextFade = styled.div`
     and (min-height: 769px) and (max-height: 1024px) {
         display: none;
     }
+
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
+        display: none;
+    }
 `;
 const StyledLineBelow = styled.div`
     width: 20px;
@@ -200,6 +215,12 @@ const StyledLineBelow = styled.div`
     // REGULAR IPAD TO IPAD PRO - LANDSCAPE
     @media only screen and (min-width: 1025px) and (max-width: 1366px)
     and (min-height: 769px) and (max-height: 1024px) {
+        display: none;
+    }
+
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
         display: none;
     }
 `;
@@ -298,6 +319,22 @@ const StyledProjectsLink = styled(Link)`
         width: 223px;
         border-bottom: 3px solid rgb(0, 50, 57);
     }
+
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
+        display: block;
+        font-size: 29px;
+        font-weight: 600;
+        margin-left: 0px;
+        line-height: 1.13em;
+        font-style: normal;
+        text-align: left:
+        background: green;
+        height: 37px;
+        width: 223px;
+        border-bottom: 3px solid rgb(0, 50, 57);
+    }
 `;
 const StyledMove = styled.div`
    width: 200px;
@@ -329,6 +366,13 @@ const StyledMove = styled.div`
     // REGULAR IPAD TO IPAD PRO - LANDSCAPE
     @media only screen and (min-width: 1025px) and (max-width: 1366px)
     and (min-height: 769px) and (max-height: 1024px) {
+        margin-left: 0px;
+        margin-top: -15px;
+    }
+
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
         margin-left: 0px;
         margin-top: -15px;
     }

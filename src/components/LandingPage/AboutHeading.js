@@ -70,6 +70,15 @@ const StyledAboutHeadingBox = styled.div`
         width: 350px;
         height: 170px;
     }
+
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
+        margin-top: 0px;
+        margin-bottom: 80px;
+        width: 350px;
+        height: 170px;
+    }
 `;
 const StyledAboutHeading = styled.h1`
     color: rgb(0, 50, 57);
@@ -143,6 +152,18 @@ const StyledAboutHeading = styled.h1`
         margin-bottom: 100px;
         line-height: 0.9em;
     }
+
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
+        margin-left: 0px;
+        margin-top: 0px;
+        // background: lightblue;
+        font-size: 70px;
+        height: 150px;
+        margin-bottom: 100px;
+        line-height: 0.9em;
+    }
 `;
 const StyledFullStop = styled.div`
     height: 9px;
@@ -200,6 +221,15 @@ const StyledFullStop = styled.div`
     // REGULAR IPAD TO IPAD PRO - LANDSCAPE
     @media only screen and (min-width: 1025px) and (max-width: 1366px)
     and (min-height: 769px) and (max-height: 1024px) {
+        left: 218px;
+        top: 170px;
+        height: 12px;
+        width: 12px;
+    }
+
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
         left: 218px;
         top: 170px;
         height: 12px;
@@ -271,6 +301,16 @@ const StyledLineShort = styled.div`
     // REGULAR IPAD TO IPAD PRO - LANDSCAPE
     @media only screen and (min-width: 1025px) and (max-width: 1366px)
     and (min-height: 769px) and (max-height: 1024px) {
+        position: absolute;
+        left: -18px;
+        top: 218px;
+        border-top: 4px solid rgb(0, 50, 57);
+        width: 20px;
+    }
+
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
         position: absolute;
         left: -18px;
         top: 218px;

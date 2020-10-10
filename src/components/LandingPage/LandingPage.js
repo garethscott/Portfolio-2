@@ -101,4 +101,12 @@ const StyledLogoBlack = styled.img`
         left: 30px;
         top: 30px;
     }
+
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
+        width: 40px;
+        left: 30px;
+        top: 30px;
+    }
 `;

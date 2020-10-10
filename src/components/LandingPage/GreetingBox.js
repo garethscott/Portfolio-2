@@ -79,6 +79,14 @@ const StyledGreetCopyBox = styled.div`
         height: 380px;
         margin-left: 20%;
     }
+
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
+        width: 70%;
+        height: 380px;
+        margin-left: 10%;
+    }
 `;
 const StyledGreeting = styled.h1`
     color: rgb(0, 50, 57);
@@ -137,6 +145,12 @@ const StyledGreeting = styled.h1`
     and (min-height: 769px) and (max-height: 1024px) {
         display: none;
     }
+
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
+        display: none;
+    }
 `;
 const StyledGreetingTwo = styled.div`
        display: none;
@@ -179,6 +193,21 @@ const StyledGreetingTwo = styled.div`
         margin-top: 0px;
         margin-bottom: 47px;
         font-size: 90px;
+        color: rgb(0, 50, 57);
+        font-family: Helvetica;
+        font-weight: 600;
+        line-height: 1em;
+        letter-spacing: -0.03em;
+    }
+
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
+        display: block;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 47px;
+        font-size: 78px;
         color: rgb(0, 50, 57);
         font-family: Helvetica;
         font-weight: 600;
@@ -261,6 +290,15 @@ const StyledFullStop = styled.div`
         left: 655px;
         bottom: 123px;
     }
+
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
+        width: 17px;
+        height: 17px;
+        left: 570px;
+        bottom: 156px;
+    }
 `;
 const StyledLineShort = styled.div`
     width: 20px;
@@ -329,6 +367,16 @@ const StyledLineShort = styled.div`
         margin-bottom: 23px;
         display: none;
     }
+
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
+        border-top: 5px solid rgb(0, 50, 57);
+        width: 30px;
+        margin-left: 3px;
+        margin-bottom: 23px;
+        display: none;
+    }
 `;
 const StyledPleaseScroll = styled.h3`
     margin-left: 19px;
@@ -379,6 +427,12 @@ const StyledPleaseScroll = styled.h3`
     and (min-height: 769px) and (max-height: 1024px) {
         display: none;
     }
+
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
+        display: none;
+    }
 `;
 const StyledPleaseScrollTwo = styled.h3`
     margin-left: 19px;
@@ -426,6 +480,20 @@ const StyledPleaseScrollTwo = styled.h3`
         // background: red;
         width: 199px;
         height: 45px;
+        border-bottom: 3px solid rgb(0, 50, 57);
+    }
+
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
+        display: block;
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: 3px;
+        line-height: 1.13em;
+        // background: red;
+        width: 170px;
+        height: 40px;
         border-bottom: 3px solid rgb(0, 50, 57);
     }
     `;
