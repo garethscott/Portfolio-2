@@ -124,6 +124,14 @@ const StyeldSocialNavBox = styled.div`
         height: 140px;
     }
 
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        left: 30px;
+        bottom: 30px;
+        height: 150px;
+    }
+
 `;
 const StyledMessage = styled.img`
     width: 20px;
@@ -149,6 +157,13 @@ const StyledMessage = styled.img`
     // SURFACE DUO TO REGULAR IPAD - PORTRAIT
     @media only screen and (min-width: 542px) and (max-width: 1025px)
     and (min-height: 722px) and (max-height: 1026px) {
+        width: 18px;
+        display: none;
+    }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
         width: 18px;
         display: none;
     }
@@ -179,6 +194,12 @@ const StyledGit = styled.img`
     and (min-height: 722px) and (max-height: 1026px) {
         width: 21px;
     }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        width: 23px;
+    }
 `;
 const StyledLinked = styled.img`
     width: 20px;
@@ -204,6 +225,12 @@ const StyledLinked = styled.img`
     @media only screen and (min-width: 542px) and (max-width: 1025px)
     and (min-height: 722px) and (max-height: 1026px) {
         width: 18px;
+    }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        width: 20px;
     }
 `;
 const StyledInsta = styled.img`
@@ -231,5 +258,11 @@ const StyledInsta = styled.img`
     @media only screen and (min-width: 542px) and (max-width: 1025px)
     and (min-height: 722px) and (max-height: 1026px) {
         width: 18px;
+    }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        width: 20px;
     }
 `;

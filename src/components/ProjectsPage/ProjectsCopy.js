@@ -49,6 +49,14 @@ const StyledProjectsCopyBox = styled.div`
         margin-left: 0px;
         width: 500px;
     }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        margin-top: 20px;
+        margin-left: 0px;
+        width: 600px;
+    }
 `;
 const StyledProjectsCopy = styled.p`
     width: 79%;
@@ -84,6 +92,14 @@ const StyledProjectsCopy = styled.p`
     and (min-height: 722px) and (max-height: 1026px) {
         font-size: 13px;
         line-height: 1.4em;
+        text-align: justify;
+    }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        font-size: 14px;
+        line-height: 1.5em;
         text-align: justify;
     }
 `;

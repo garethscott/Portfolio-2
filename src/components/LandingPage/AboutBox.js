@@ -87,6 +87,15 @@ const StyledAboutContent = styled.div`
         width: 60%;
         height: 570px;
     }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        margin-left: 20%;
+        // background: red;
+        width: 60%;
+        height: 610px;
+    }
 `;
 const StyledTextFade = styled.div`
     position: absolute;    
@@ -136,6 +145,12 @@ const StyledTextFade = styled.div`
     and (min-height: 722px) and (max-height: 1026px) {
         display: none;
     }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        display: none;
+    }
 `;
 const StyledLineBelow = styled.div`
     width: 20px;
@@ -179,6 +194,12 @@ const StyledLineBelow = styled.div`
     // SURFACE DUO TO REGULAR IPAD - PORTRAIT
     @media only screen and (min-width: 542px) and (max-width: 1025px)
     and (min-height: 722px) and (max-height: 1026px) {
+        display: none;
+    }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
         display: none;
     }
 `;
@@ -262,6 +283,21 @@ const StyledProjectsLink = styled(Link)`
         border-bottom: 3px solid rgb(0, 50, 57);
     }
     
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        display: block;
+        font-size: 29px;
+        font-weight: 600;
+        margin-left: 0px;
+        line-height: 1.13em;
+        font-style: normal;
+        text-align: left:
+        background: green;
+        height: 37px;
+        width: 223px;
+        border-bottom: 3px solid rgb(0, 50, 57);
+    }
 `;
 const StyledMove = styled.div`
    width: 200px;
@@ -286,6 +322,13 @@ const StyledMove = styled.div`
     // SURFACE DUO TO REGULAR IPAD - PORTRAIT
     @media only screen and (min-width: 542px) and (max-width: 1025px)
     and (min-height: 722px) and (max-height: 1026px) {
+        margin-left: 0px;
+        margin-top: -15px;
+    }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
         margin-left: 0px;
         margin-top: -15px;
     }

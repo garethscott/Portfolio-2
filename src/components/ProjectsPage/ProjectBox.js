@@ -160,6 +160,14 @@ const StyledProjectBox = styled(Link)`
       //   margin-bottom: 4%;
         height: 230px;
       }
+
+   // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+      width: 31%;
+      //   margin-bottom: 4%;
+        height: 370px;
+    }
 `;
 const StyledImg = styled.img`
     width: 100%;
@@ -179,6 +187,12 @@ const StyledImg = styled.img`
     // SURFACE DUO TO REGULAR IPAD - PORTRAIT
     @media only screen and (min-width: 542px) and (max-width: 1025px)
     and (min-height: 722px) and (max-height: 1026px) {
+      width: 100%;
+    }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
       width: 100%;
     }
 `;
@@ -203,6 +217,7 @@ const StyledImgHeading = styled.h3`
     and (min-height: 719px) and (max-height: 721px) {
         font-size: 18px;
     }
+
 `;
 const StyledSubHeading = styled.h3`
     color: rgb(0, 50, 57);

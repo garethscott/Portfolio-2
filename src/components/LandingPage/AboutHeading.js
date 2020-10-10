@@ -61,6 +61,15 @@ const StyledAboutHeadingBox = styled.div`
         // background: green;
         height: 170
     }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        margin-top: 0px;
+        margin-bottom: 80px;
+        width: 350px;
+        height: 170px;
+    }
 `;
 const StyledAboutHeading = styled.h1`
     color: rgb(0, 50, 57);
@@ -122,6 +131,18 @@ const StyledAboutHeading = styled.h1`
         margin-bottom: 100px;
         line-height: 0.9em;
     }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        margin-left: 0px;
+        margin-top: 0px;
+        // background: lightblue;
+        font-size: 70px;
+        height: 150px;
+        margin-bottom: 100px;
+        line-height: 0.9em;
+    }
 `;
 const StyledFullStop = styled.div`
     height: 9px;
@@ -174,6 +195,15 @@ const StyledFullStop = styled.div`
     and (min-height: 722px) and (max-height: 1026px) {
         left: 172px;
         bottom: 25px;
+    }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        left: 218px;
+        top: 170px;
+        height: 12px;
+        width: 12px;
     }
 `;
 const StyledLineShort = styled.div`
@@ -235,6 +265,16 @@ const StyledLineShort = styled.div`
         left: -18px;
         top: 180px;
         border-top: 3px solid rgb(0, 50, 57);
+        width: 20px;
+    }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        position: absolute;
+        left: -18px;
+        top: 218px;
+        border-top: 4px solid rgb(0, 50, 57);
         width: 20px;
     }
 `;

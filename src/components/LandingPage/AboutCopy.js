@@ -103,6 +103,20 @@ const StyledOverflow = styled.div`
         column-gap: 1px;
         text-align: justify;
     }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        margin-left: 0px;
+        margin-top: 50px;
+        overflow-y: unset;
+        height: 290px;
+        width: 800px;
+        column-count: 2;
+        colomn-width: 275px;
+        column-gap: 1px;
+        text-align: justify;
+    }
 `;
 const StyledTopPara = styled.p`
 width: 85%;
@@ -157,6 +171,12 @@ and (min-height: 320px) and (max-height: 375px) {
     and (min-height: 722px) and (max-height: 1026px) {
         margin-top: 0px;
     }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        margin-top: 0px;
+    }
 `;
 const StyledAboutCopy = styled.p`
     width: 85%;
@@ -196,6 +216,13 @@ const StyledAboutCopy = styled.p`
     and (min-height: 375px) and (max-height: 540px) {
         font-size: 13px;
         line-height: 1.4em;
+    }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        font-size: 14px;
+        line-height: 1.45em;
     }
 
     

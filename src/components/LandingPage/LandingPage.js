@@ -93,4 +93,12 @@ const StyledLogoBlack = styled.img`
         left: 30px;
         top: 30px;
     }
+    
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        width: 40px;
+        left: 30px;
+        top: 30px;
+    }
 `;
