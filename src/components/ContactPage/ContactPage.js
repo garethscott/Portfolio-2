@@ -34,6 +34,12 @@ const StyledBackground = styled.div`
     align-items: center;
     justify-content: center;
     position: relative;
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        justify-content: unset;
+    }
 `;
 const StyledLogo = styled.img`
     width: 30px;
@@ -73,6 +79,12 @@ const StyledLogo = styled.img`
         top: 30px;
         width: 35px;
     }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        display: none;
+    }
 `;
 const StyledLogoTwo = styled.img`
     width: 33px;
@@ -93,6 +105,15 @@ const StyledLogoTwo = styled.img`
         display: inline;
         position: absolute;
         right: 0;
+    }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        display: inline;
+        position: absolute;
+        right: 0;
+        width: 40px;
     }
 `;
 const StyledContentBox = styled.div`
@@ -126,5 +147,12 @@ const StyledContentBox = styled.div`
     @media only screen and (min-width: 542px) and (max-width: 1025px)
     and (min-height: 769px) and (max-height: 1026px) {
         width: 91%;
+    }
+    
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        width: 40%;
+        margin-left: 5%;
     }
 `;

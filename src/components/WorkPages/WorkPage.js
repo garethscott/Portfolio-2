@@ -99,6 +99,14 @@ const StyledBlackLogo = styled.img`
         right: 30px;
         width: 30px;
     }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        top: 30px;
+        right: 30px;
+        width: 35px;
+    }
     
 
 `;
@@ -146,6 +154,20 @@ const StyledX = styled.img`
     and (min-height: 769px) and (max-height: 1026px) {
         top: 30px;
         left: 30px;
+    }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        top: 30px;
+        left: 30px;
+    }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        width: 30px;
+       
     }
     
 `;
@@ -232,6 +254,15 @@ const StyledContentBox = styled.div`
         // background: lightblue;
         height: 65%;
         width: 92%;
+    }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        // background: blue;
+        display: flex;
+        flex-direction: row-reverse;
+        height: 60%;
     }
     
 `;
@@ -336,6 +367,14 @@ const StyledImgFrame = styled.div`
     and (min-height: 769px) and (max-height: 1026px) {
         height: 65%;
     }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        width: 60%;
+        margin-right: 30px;
+        height: 90%;
+    }
     
 `;
 const StyledWorkImg = styled.img`
@@ -391,6 +430,13 @@ const StyledCopyFrame = styled.div`
         width: 37%;
         margin-top: 0px;
     }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        width: 37%;
+        margin-top: 0px;
+    }
     
     
 `;
@@ -415,7 +461,11 @@ const StyledCopyBox = styled.div`
         margin-top: 0px;
     }
 
-    
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        margin-top: 0px;
+    }
     
 `;
 const StyledHeading = styled.h1`
@@ -437,6 +487,13 @@ const StyledHeading = styled.h1`
     and (min-height: 769px) and (max-height: 1026px) {
         margin-right: 0px;
         font-size: 23px;
+    }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        margin-top: 0px;
+        font-size: 25px;
     }
 `;
 const StyledCopy = styled.p`
@@ -467,15 +524,14 @@ const StyledCopy = styled.p`
         font-size: 12px;
        line-height: 1.4em;
     }
-
-    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
-    @media only screen and (min-width: 542px) and (max-width: 1025px)
-    and (min-height: 769px) and (max-height: 1026px) {
-        margin-right: 0px;
-        max-width: 300px;
-        font-size: 13px;
-       line-height: 1.4em;
+    
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        font-size: 14px;
+       line-height: 1.5em;
     }
+    
 `;
 const StyledLineTop = styled.div`
     width: 15px;
@@ -490,6 +546,12 @@ const StyledLineTop = styled.div`
     and (min-height: 769px) and (max-height: 1026px) {
         right: 0px;
         top: 46px;
+    }
+    
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        top: 44px;
     }
 `;
 const StyledLineBot = styled.div`
@@ -525,6 +587,13 @@ const StyledSeeLink = styled.a`
         font-size: 23px;
         width: 113px;
     }
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        font-size: 24px;
+        width: 114px;
+       
+    }
 `;
 const StyledArrowBox = styled.div`
     width: 100%;
@@ -538,6 +607,12 @@ const StyledArrowBox = styled.div`
     // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
     @media only screen and (min-width: 542px) and (max-width: 1025px)
     and (min-height: 722px) and (max-height: 790px) {
+        margin-bottom: 7px;
+    }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
         margin-bottom: 7px;
     }
 `;
@@ -556,6 +631,18 @@ const StyledNext = styled(Link)`
     and (min-height: 722px) and (max-height: 790px) {
         margin-right: 30px;
     }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        margin-right: 30px;
+    }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        font-size: 15px;
+    }
 `;
 const StyledPrevious = styled(Link)`
     font-family: helvetica;
@@ -571,6 +658,18 @@ const StyledPrevious = styled(Link)`
     @media only screen and (min-width: 542px) and (max-width: 1025px)
     and (min-height: 722px) and (max-height: 790px) {
         margin-left: 30px;
+    }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        margin-left: 30px;
+    }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        font-size: 15px;
     }
 `;
 

@@ -47,6 +47,13 @@ const StyledContactHeadingBox = styled.div`
         width: 190px;
         height: 100px;
     }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        width: 190px;
+        height: 100px;
+    }
 `;
 const StyledContactHeading = styled.h1`
     color: rgb(255, 255, 255);
@@ -77,6 +84,12 @@ const StyledContactHeading = styled.h1`
     // SURFACE DUO TO REGULAR IPAD - PORTRAIT
     @media only screen and (min-width: 542px) and (max-width: 1025px)
     and (min-height: 722px) and (max-height: 1026px) {
+        font-size: 35px;
+    }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
         font-size: 35px;
     }
 `;
@@ -124,6 +137,15 @@ const StyledFullStop = styled.div`
       height: 7px;
       width: 7px;
     }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
+        top: 111px;
+        left: 149px;
+        height: 7px;
+        width: 7px;
+    }
 `;
 const StyledBotLine = styled.div`
     width: 20px;
@@ -154,6 +176,12 @@ const StyledBotLine = styled.div`
     // SURFACE DUO TO REGULAR IPAD - PORTRAIT
     @media only screen and (min-width: 542px) and (max-width: 1025px)
     and (min-height: 722px) and (max-height: 1026px) {
+        display: none;
+    }
+
+    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
+    @media only screen and (min-width: 1025px) and (max-width: 1366px)
+    and (min-height: 769px) and (max-height: 1024px) {
         display: none;
     }
 `;
