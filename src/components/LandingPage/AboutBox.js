@@ -71,36 +71,43 @@ const StyledAboutContent = styled.div`
     }
     
     // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
-    @media only screen and (min-width: 542px) and (max-width: 1025px)
-    and (min-height: 722px) and (max-height: 790px) {
+    @media only screen and (min-width: 721px) and (max-width: 1024px)
+    and (min-height: 541px) {
         margin-left: 20%;
         // background: red;
         width: 60%;
         height: 570px;
     }
 
-    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
-    @media only screen and (min-width: 542px) and (max-width: 1025px)
-    and (min-height: 769px) and (max-height: 1026px) {
-        margin-left: 10%;
-        // background: red;
-        width: 60%;
-        height: 570px;
-    }
+    // // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    // @media only screen and (min-width: 542px) and (max-width: 1025px)
+    // and (min-height: 769px) and (max-height: 1026px) {
+    //     margin-left: 10%;
+    //     // background: red;
+    //     width: 60%;
+    //     height: 570px;
+    // }
 
     // REGULAR IPAD TO IPAD PRO - LANDSCAPE
-    @media only screen and (min-width: 1025px) and (max-width: 1366px)
-    and (min-height: 769px) and (max-height: 1024px) {
+    @media only screen and (min-width: 1025px) and (max-width: 1366px) {
         margin-left: 20%;
         // background: red;
         width: 60%;
         height: 610px;
     }
 
-    // REGULAR IPAD TO IPAD PRO - PORTRAIT
-    @media only screen and (min-width: 1023px) and (max-width: 1026px)
-    and (min-height: 1365px) and (max-height: 1367px) {
-        margin-left: 14%;
+    // // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    // @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    // and (min-height: 1365px) and (max-height: 1367px) {
+    //     margin-left: 14%;
+    //     // background: red;
+    //     width: 60%;
+    //     height: 610px;
+    // }
+
+    // BREAK POINT AFTER IPAD PRO
+    @media only screen and (min-width: 1367px) {
+        margin-left: 20%;
         // background: red;
         width: 60%;
         height: 610px;
@@ -144,26 +151,30 @@ const StyledTextFade = styled.div`
     }
 
     // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
-    @media only screen and (min-width: 542px) and (max-width: 1025px)
-    and (min-height: 722px) and (max-height: 790px) {
+    @media only screen and (min-width: 721px) and (max-width: 1024px)
+    and (min-height: 541px) {
         display: none;
     }
 
-    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
-    @media only screen and (min-width: 542px) and (max-width: 1025px)
-    and (min-height: 722px) and (max-height: 1026px) {
-        display: none;
-    }
+    // // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    // @media only screen and (min-width: 542px) and (max-width: 1025px)
+    // and (min-height: 722px) and (max-height: 1026px) {
+    //     display: none;
+    // }
 
     // REGULAR IPAD TO IPAD PRO - LANDSCAPE
-    @media only screen and (min-width: 1025px) and (max-width: 1366px)
-    and (min-height: 769px) and (max-height: 1024px) {
+    @media only screen and (min-width: 1025px) and (max-width: 1366px) {
         display: none;
     }
 
-    // REGULAR IPAD TO IPAD PRO - PORTRAIT
-    @media only screen and (min-width: 1023px) and (max-width: 1026px)
-    and (min-height: 1365px) and (max-height: 1367px) {
+    // // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    // @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    // and (min-height: 1365px) and (max-height: 1367px) {
+    //     display: none;
+    // }
+
+    // BREAK POINT AFTER IPAD PRO
+    @media only screen and (min-width: 1367px) {
         display: none;
     }
 `;
@@ -201,26 +212,30 @@ const StyledLineBelow = styled.div`
     }
 
     // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
-    @media only screen and (min-width: 542px) and (max-width: 1025px)
-    and (min-height: 722px) and (max-height: 790px) {
+    @media only screen and (min-width: 721px) and (max-width: 1024px)
+    and (min-height: 541px) {
         display: none;
     }
 
-    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
-    @media only screen and (min-width: 542px) and (max-width: 1025px)
-    and (min-height: 722px) and (max-height: 1026px) {
-        display: none;
-    }
+    // // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    // @media only screen and (min-width: 542px) and (max-width: 1025px)
+    // and (min-height: 722px) and (max-height: 1026px) {
+    //     display: none;
+    // }
 
     // REGULAR IPAD TO IPAD PRO - LANDSCAPE
-    @media only screen and (min-width: 1025px) and (max-width: 1366px)
-    and (min-height: 769px) and (max-height: 1024px) {
+    @media only screen and (min-width: 1025px) and (max-width: 1366px) {
         display: none;
     }
 
-    // REGULAR IPAD TO IPAD PRO - PORTRAIT
-    @media only screen and (min-width: 1023px) and (max-width: 1026px)
-    and (min-height: 1365px) and (max-height: 1367px) {
+    // // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    // @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    // and (min-height: 1365px) and (max-height: 1367px) {
+    //     display: none;
+    // }
+
+    // BREAK POINT AFTER IPAD PRO
+    @media only screen and (min-width: 1367px) {
         display: none;
     }
 `;
@@ -273,8 +288,8 @@ const StyledProjectsLink = styled(Link)`
     }
     
     // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
-    @media only screen and (min-width: 542px) and (max-width: 1025px)
-    and (min-height: 722px) and (max-height: 790px) {
+    @media only screen and (min-width: 721px) and (max-width: 1024px)
+    and (min-height: 541px) {
         display: block;
         font-size: 23px;
         font-weight: 600;
@@ -288,25 +303,24 @@ const StyledProjectsLink = styled(Link)`
         border-bottom: 3px solid rgb(0, 50, 57);
     }
 
-    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
-    @media only screen and (min-width: 542px) and (max-width: 1025px)
-    and (min-height: 722px) and (max-height: 1026px) {
-        display: block;
-        font-size: 23px;
-        font-weight: 600;
-        margin-left: 0px;
-        line-height: 1.13em;
-        font-style: normal;
-        text-align: left:
-        background: green;
-        height: 30px;
-        width: 177px;
-        border-bottom: 3px solid rgb(0, 50, 57);
-    }
+    // // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    // @media only screen and (min-width: 542px) and (max-width: 1025px)
+    // and (min-height: 722px) and (max-height: 1026px) {
+    //     display: block;
+    //     font-size: 23px;
+    //     font-weight: 600;
+    //     margin-left: 0px;
+    //     line-height: 1.13em;
+    //     font-style: normal;
+    //     text-align: left:
+    //     background: green;
+    //     height: 30px;
+    //     width: 177px;
+    //     border-bottom: 3px solid rgb(0, 50, 57);
+    // }
     
     // REGULAR IPAD TO IPAD PRO - LANDSCAPE
-    @media only screen and (min-width: 1025px) and (max-width: 1366px)
-    and (min-height: 769px) and (max-height: 1024px) {
+    @media only screen and (min-width: 1025px) and (max-width: 1366px) {
         display: block;
         font-size: 29px;
         font-weight: 600;
@@ -320,9 +334,24 @@ const StyledProjectsLink = styled(Link)`
         border-bottom: 3px solid rgb(0, 50, 57);
     }
 
-    // REGULAR IPAD TO IPAD PRO - PORTRAIT
-    @media only screen and (min-width: 1023px) and (max-width: 1026px)
-    and (min-height: 1365px) and (max-height: 1367px) {
+    // // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    // @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    // and (min-height: 1365px) and (max-height: 1367px) {
+    //     display: block;
+    //     font-size: 29px;
+    //     font-weight: 600;
+    //     margin-left: 0px;
+    //     line-height: 1.13em;
+    //     font-style: normal;
+    //     text-align: left:
+    //     background: green;
+    //     height: 37px;
+    //     width: 223px;
+    //     border-bottom: 3px solid rgb(0, 50, 57);
+    // }
+
+    // BREAK POINT AFTER IPAD PRO
+    @media only screen and (min-width: 1367px) {
         display: block;
         font-size: 29px;
         font-weight: 600;
@@ -350,29 +379,34 @@ const StyledMove = styled.div`
    }
    
    // SURFACE DUO TO REGULAR IPAD - LANDSCAPE
-    @media only screen and (min-width: 542px) and (max-width: 1025px)
-    and (min-height: 722px) and (max-height: 790px) {
+   @media only screen and (min-width: 721px) and (max-width: 1024px)
+   and (min-height: 541px) {
         margin-left: 0px;
         margin-top: -15px;
     }
 
-    // SURFACE DUO TO REGULAR IPAD - PORTRAIT
-    @media only screen and (min-width: 542px) and (max-width: 1025px)
-    and (min-height: 722px) and (max-height: 1026px) {
-        margin-left: 0px;
-        margin-top: -15px;
-    }
+    // // SURFACE DUO TO REGULAR IPAD - PORTRAIT
+    // @media only screen and (min-width: 542px) and (max-width: 1025px)
+    // and (min-height: 722px) and (max-height: 1026px) {
+    //     margin-left: 0px;
+    //     margin-top: -15px;
+    // }
 
     // REGULAR IPAD TO IPAD PRO - LANDSCAPE
-    @media only screen and (min-width: 1025px) and (max-width: 1366px)
-    and (min-height: 769px) and (max-height: 1024px) {
+    @media only screen and (min-width: 1025px) and (max-width: 1366px) {
         margin-left: 0px;
         margin-top: -15px;
     }
 
-    // REGULAR IPAD TO IPAD PRO - PORTRAIT
-    @media only screen and (min-width: 1023px) and (max-width: 1026px)
-    and (min-height: 1365px) and (max-height: 1367px) {
+    // // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    // @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    // and (min-height: 1365px) and (max-height: 1367px) {
+    //     margin-left: 0px;
+    //     margin-top: -15px;
+    // }
+
+    // BREAK POINT AFTER IPAD PRO
+    @media only screen and (min-width: 1367px) {
         margin-left: 0px;
         margin-top: -15px;
     }
