@@ -108,6 +108,13 @@ const StyledBlackLogo = styled.img`
         width: 35px;
     }
     
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
+        top: 30px;
+        right: 30px;
+        width: 35px;
+    }
 
 `;
 const StyledX = styled.img`
@@ -161,15 +168,16 @@ const StyledX = styled.img`
     and (min-height: 769px) and (max-height: 1024px) {
         top: 30px;
         left: 30px;
+        width: 30px;
     }
 
-    // REGULAR IPAD TO IPAD PRO - LANDSCAPE
-    @media only screen and (min-width: 1025px) and (max-width: 1366px)
-    and (min-height: 769px) and (max-height: 1024px) {
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
+        top: 30px;
+        left: 30px;
         width: 30px;
-       
     }
-    
 `;
 const StyledContentBox = styled.div`
     width: 100%;
@@ -263,6 +271,14 @@ const StyledContentBox = styled.div`
         display: flex;
         flex-direction: row-reverse;
         height: 60%;
+    }
+
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
+        // background: lightblue;
+        height: 65%;
+        width: 92%;
     }
     
 `;
@@ -376,6 +392,11 @@ const StyledImgFrame = styled.div`
         height: 90%;
     }
     
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
+        height: 65%;
+    }
 `;
 const StyledWorkImg = styled.img`
     height: 85%;
@@ -466,6 +487,14 @@ const StyledCopyBox = styled.div`
     and (min-height: 769px) and (max-height: 1024px) {
         margin-top: 0px;
     }
+
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
+        margin-top: 20px;
+        margin-right: 0px;
+        font-size: 25px;
+    }
     
 `;
 const StyledHeading = styled.h1`
@@ -493,6 +522,13 @@ const StyledHeading = styled.h1`
     @media only screen and (min-width: 1025px) and (max-width: 1366px)
     and (min-height: 769px) and (max-height: 1024px) {
         margin-top: 0px;
+        font-size: 25px;
+    }
+
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
+        margin-right: 0px;
         font-size: 25px;
     }
 `;
@@ -531,6 +567,15 @@ const StyledCopy = styled.p`
         font-size: 14px;
        line-height: 1.5em;
     }
+
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
+        font-size: 14px;
+       line-height: 1.5em;
+       margin-right: 0px;
+       width: 350px;
+    }
     
 `;
 const StyledLineTop = styled.div`
@@ -553,6 +598,13 @@ const StyledLineTop = styled.div`
     and (min-height: 769px) and (max-height: 1024px) {
         top: 44px;
     }
+
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
+        right: 0px;
+        top: 46px;
+    }
 `;
 const StyledLineBot = styled.div`
     width: 15px;
@@ -564,6 +616,12 @@ const StyledLineBot = styled.div`
     // SURFACE DUO TO REGULAR IPAD - PORTRAIT
     @media only screen and (min-width: 542px) and (max-width: 1025px)
     and (min-height: 769px) and (max-height: 1026px) {
+        margin-right: 0px;
+    }
+
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
         margin-right: 0px;
     }
 `;
@@ -594,6 +652,14 @@ const StyledSeeLink = styled.a`
         width: 114px;
        
     }
+
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
+        margin-right: 0px;
+        font-size: 23px;
+        width: 113px;
+    }
 `;
 const StyledArrowBox = styled.div`
     width: 100%;
@@ -614,6 +680,13 @@ const StyledArrowBox = styled.div`
     @media only screen and (min-width: 1025px) and (max-width: 1366px)
     and (min-height: 769px) and (max-height: 1024px) {
         margin-bottom: 7px;
+    }
+
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
+        margin-bottom: 20px;
+        width: 97%;
     }
 `;
 const StyledNext = styled(Link)`
@@ -643,6 +716,12 @@ const StyledNext = styled(Link)`
     and (min-height: 769px) and (max-height: 1024px) {
         font-size: 15px;
     }
+
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
+        font-size: 15px;
+    }
 `;
 const StyledPrevious = styled(Link)`
     font-family: helvetica;
@@ -669,6 +748,12 @@ const StyledPrevious = styled(Link)`
     // REGULAR IPAD TO IPAD PRO - LANDSCAPE
     @media only screen and (min-width: 1025px) and (max-width: 1366px)
     and (min-height: 769px) and (max-height: 1024px) {
+        font-size: 15px;
+    }
+
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
         font-size: 15px;
     }
 `;

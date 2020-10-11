@@ -66,6 +66,12 @@ const StyledContactBox = styled.div`
     and (min-height: 769px) and (max-height: 1024px) {
         height: 180px;
     }
+
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
+        height: 180px;
+    }
 `;
 const StyledContactContent = styled.div`
     width: 86%;
@@ -111,6 +117,14 @@ const StyledContactContent = styled.div`
         height: 100px;
         justify-content: space-between;
     }
+
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
+        display: flex;
+        height: 100px;
+        justify-content: space-between;
+    }
 `;
 const StyledLogoPink = styled.img`
     width: 30px;
@@ -149,6 +163,13 @@ const StyledLogoPink = styled.img`
     // REGULAR IPAD TO IPAD PRO - LANDSCAPE
     @media only screen and (min-width: 1025px) and (max-width: 1366px)
     and (min-height: 769px) and (max-height: 1024px) {
+        width: 33px;
+        position: static;
+    }
+
+    // REGULAR IPAD TO IPAD PRO - PORTRAIT
+    @media only screen and (min-width: 1023px) and (max-width: 1026px)
+    and (min-height: 1365px) and (max-height: 1367px) {
         width: 33px;
         position: static;
     }
