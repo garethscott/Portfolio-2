@@ -35,7 +35,7 @@ const StyledProjectBox = styled(Link)`
     @media only screen and (min-width: 374px) and (max-width: 541px)
     and (min-height: 665px) and (max-height: 824px) {
       //   margin-bottom: 58px;
-        background: red;
+      //   background: red;
     }
 
     
