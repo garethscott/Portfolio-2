@@ -29,7 +29,7 @@ function App() {
       <StyledApp>
         <Route
           exact
-          path="/Portfolio-2"
+          path="/"
           render={() => (
             <LandingPage
               onMouseEnter={() => setLogoHover(false)}
