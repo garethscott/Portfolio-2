@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Portfolio-2/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/Portfolio-2/static/js/main.ba475bba.chunk.js",
-    "main.js.map": "/Portfolio-2/static/js/main.ba475bba.chunk.js.map",
+    "main.js": "/Portfolio-2/static/js/main.d8f3cf14.chunk.js",
+    "main.js.map": "/Portfolio-2/static/js/main.d8f3cf14.chunk.js.map",
     "runtime-main.js": "/Portfolio-2/static/js/runtime-main.c5dc98f4.js",
     "runtime-main.js.map": "/Portfolio-2/static/js/runtime-main.c5dc98f4.js.map",
-    "static/js/2.682a908a.chunk.js": "/Portfolio-2/static/js/2.682a908a.chunk.js",
-    "static/js/2.682a908a.chunk.js.map": "/Portfolio-2/static/js/2.682a908a.chunk.js.map",
+    "static/js/2.bb44b63d.chunk.js": "/Portfolio-2/static/js/2.bb44b63d.chunk.js",
+    "static/js/2.bb44b63d.chunk.js.map": "/Portfolio-2/static/js/2.bb44b63d.chunk.js.map",
     "index.html": "/Portfolio-2/index.html",
-    "precache-manifest.ef353b3013ab1f5a69c9f52200b28bb4.js": "/Portfolio-2/precache-manifest.ef353b3013ab1f5a69c9f52200b28bb4.js",
+    "precache-manifest.d26d522c97cbf013456604d12311fc08.js": "/Portfolio-2/precache-manifest.d26d522c97cbf013456604d12311fc08.js",
     "service-worker.js": "/Portfolio-2/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/Portfolio-2/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.682a908a.chunk.js.LICENSE.txt": "/Portfolio-2/static/js/2.682a908a.chunk.js.LICENSE.txt",
+    "static/js/2.bb44b63d.chunk.js.LICENSE.txt": "/Portfolio-2/static/js/2.bb44b63d.chunk.js.LICENSE.txt",
     "static/media/Project-Square-AddressBook.jpg": "/Portfolio-2/static/media/Project-Square-AddressBook.621f8d87.jpg",
     "static/media/Project-Square-Calc.jpg": "/Portfolio-2/static/media/Project-Square-Calc.546af9a0.jpg",
     "static/media/Project-Square-DiceGame.jpg": "/Portfolio-2/static/media/Project-Square-DiceGame.1bf982e4.jpg",
@@ -23,12 +23,15 @@
     "static/media/Project-Square-WeatherApp.jpg": "/Portfolio-2/static/media/Project-Square-WeatherApp.b4541791.jpg",
     "static/media/work-picture-dicegame.png": "/Portfolio-2/static/media/work-picture-dicegame.bfae66c3.png",
     "static/media/work-picture-drumkit.png": "/Portfolio-2/static/media/work-picture-drumkit.012bb3e8.png",
-    "static/media/work-picture-keycode.png": "/Portfolio-2/static/media/work-picture-keycode.ed070336.png"
+    "static/media/work-picture-keycode.png": "/Portfolio-2/static/media/work-picture-keycode.ed070336.png",
+    "static/media/work-picture-pokeapp.png": "/Portfolio-2/static/media/work-picture-pokeapp.e7636ab2.png",
+    "static/media/work-picture-todoapp.png": "/Portfolio-2/static/media/work-picture-todoapp.0e7d231d.png",
+    "static/media/work-picture-travelapp.png": "/Portfolio-2/static/media/work-picture-travelapp.43d67f8f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c5dc98f4.js",
-    "static/js/2.682a908a.chunk.js",
+    "static/js/2.bb44b63d.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.ba475bba.chunk.js"
+    "static/js/main.d8f3cf14.chunk.js"
   ]
 }
