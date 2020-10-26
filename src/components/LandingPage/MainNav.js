@@ -3,11 +3,11 @@ import styled from 'styled-components';
 
 const MainNav = () => {
     return (
+
         <StyledContainer>
             <StyledNavs>Get in touch</StyledNavs>
-            {/* <StyledNavs>Projects</StyledNavs>
-            <StyledNavs>Contact</StyledNavs> */}
         </StyledContainer>
+
     )
 }
 

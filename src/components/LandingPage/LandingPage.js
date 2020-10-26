@@ -14,7 +14,9 @@ const LandingPage = (props) => {
     return (
         <div>
             {/* <ScrollToTopController /> */}
-            <MainNav />
+            <Link to="/contact">
+                <MainNav />
+            </Link>
             <Link to="/home">
                 <div onMouseEnter={props.onMouseEnter}
                     onMouseLeave={props.onMouseLeave}>
