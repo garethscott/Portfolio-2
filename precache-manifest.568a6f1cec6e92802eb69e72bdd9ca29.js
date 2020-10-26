@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "47dce0f4a516d747d1df26cf0e9c6dd3",
+    "revision": "1eca50c975a373ba65727f1b38edad16",
     "url": "/Portfolio-2/index.html"
   },
   {
-    "revision": "2a60e1ce1dea8ff0132e",
+    "revision": "f83cffcdec2a38e88c9f",
     "url": "/Portfolio-2/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio-2/static/js/2.adae5ceb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2a60e1ce1dea8ff0132e",
-    "url": "/Portfolio-2/static/js/main.5b74f6d3.chunk.js"
+    "revision": "f83cffcdec2a38e88c9f",
+    "url": "/Portfolio-2/static/js/main.82c5d279.chunk.js"
   },
   {
     "revision": "d760826089b9bba24b4d",
@@ -58,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b45417914938a517233af7314f842d8f",
     "url": "/Portfolio-2/static/media/Project-Square-WeatherApp.b4541791.jpg"
+  },
+  {
+    "revision": "c737e17a49f16945d0f9542fbb785de2",
+    "url": "/Portfolio-2/static/media/work-picture-addressbook.c737e17a.png"
   },
   {
     "revision": "bfae66c32506c536070c02d20e799bce",

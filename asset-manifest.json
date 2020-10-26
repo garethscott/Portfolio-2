@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Portfolio-2/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/Portfolio-2/static/js/main.5b74f6d3.chunk.js",
-    "main.js.map": "/Portfolio-2/static/js/main.5b74f6d3.chunk.js.map",
+    "main.js": "/Portfolio-2/static/js/main.82c5d279.chunk.js",
+    "main.js.map": "/Portfolio-2/static/js/main.82c5d279.chunk.js.map",
     "runtime-main.js": "/Portfolio-2/static/js/runtime-main.c5dc98f4.js",
     "runtime-main.js.map": "/Portfolio-2/static/js/runtime-main.c5dc98f4.js.map",
     "static/js/2.adae5ceb.chunk.js": "/Portfolio-2/static/js/2.adae5ceb.chunk.js",
     "static/js/2.adae5ceb.chunk.js.map": "/Portfolio-2/static/js/2.adae5ceb.chunk.js.map",
     "index.html": "/Portfolio-2/index.html",
-    "precache-manifest.dddcb7a018ea02c27cbe351e6f7774e9.js": "/Portfolio-2/precache-manifest.dddcb7a018ea02c27cbe351e6f7774e9.js",
+    "precache-manifest.568a6f1cec6e92802eb69e72bdd9ca29.js": "/Portfolio-2/precache-manifest.568a6f1cec6e92802eb69e72bdd9ca29.js",
     "service-worker.js": "/Portfolio-2/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/Portfolio-2/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.adae5ceb.chunk.js.LICENSE.txt": "/Portfolio-2/static/js/2.adae5ceb.chunk.js.LICENSE.txt",
@@ -21,6 +21,7 @@
     "static/media/Project-Square-Todo.jpg": "/Portfolio-2/static/media/Project-Square-Todo.b57d3670.jpg",
     "static/media/Project-Square-TravelApp.jpg": "/Portfolio-2/static/media/Project-Square-TravelApp.9ea75bbe.jpg",
     "static/media/Project-Square-WeatherApp.jpg": "/Portfolio-2/static/media/Project-Square-WeatherApp.b4541791.jpg",
+    "static/media/work-picture-addressbook.png": "/Portfolio-2/static/media/work-picture-addressbook.c737e17a.png",
     "static/media/work-picture-dicegame.png": "/Portfolio-2/static/media/work-picture-dicegame.bfae66c3.png",
     "static/media/work-picture-drumkit.png": "/Portfolio-2/static/media/work-picture-drumkit.012bb3e8.png",
     "static/media/work-picture-keycode.png": "/Portfolio-2/static/media/work-picture-keycode.ed070336.png",
@@ -33,6 +34,6 @@
     "static/js/runtime-main.c5dc98f4.js",
     "static/js/2.adae5ceb.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.5b74f6d3.chunk.js"
+    "static/js/main.82c5d279.chunk.js"
   ]
 }
