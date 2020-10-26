@@ -14,7 +14,7 @@ const WeatherAppPage = () => {
                 for location. The app was built server-side using Node.js and express, 
                 and rendered back-end with handlebars. The 
                 weather forecast data is retrieved from the OpenWeatherMap API."
-                workUrl="#"
+                workUrl="https://gentle-crag-79761.herokuapp.com/"
                 previousUrl="/travelapp"
                 nextUrl="/pokemonapp"
             />
